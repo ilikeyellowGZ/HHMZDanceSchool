@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+:root {
+    --main-colour-100: #FCDDDF;
+    --main-colour-200: #FFBBBF;
+    --main-colour-300: #FB505B;
+    --main-colour-400: #Ff9299;
+    --main-colour-500: #dfa2A6;
+
+    --Secondary-colour-100:#5c5a5a ;
+    --Secondary-colour-200:#1e1e1e ;
+    --Secondary-colour-300:#101212;
+
+    --smaller-br:7px;
+    --small-br:11px;
+    --bigger-br:16px;
+
+    --main-o-100:#f7ffff2a;
+    --main-o-200:#1e1e1ed5;
+
+    --dark-tc:#101212;
+    --light-tc:#f7ffff;
+
+    --main-heading-fw:900;
+    --section-heading-fw:700;
+
+    --section-fs:20px;
+    --section-ms:22px
+
+}
+
+body,html{
+    scroll-behavior: smooth;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+#amapiano{
+background: var(--main-colour-200);
+}
+#urbanDance{
+    background: var(--main-colour-400);
+}
+#hipHop{
+    background: var(--main-colour-100);
+}
+#breakDance{
+    background: var(--main-colour-200);
+}
+#tikTok{
+    background: var(--main-colour-100);
+}
+#afroBeat{
+    background: var(--main-colour-400);
+}
+1 .hiphop-header 
+2 font-sizes
+3 the big hero fonts 
+4 faq headers 
+5 the whole foote

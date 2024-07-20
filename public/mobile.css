@@ -1,0 +1,486 @@
+
+header {
+    height: 100svh;
+    width: 100%;
+    border: 1px solid red;
+    background: var(--Secondary-colour-200);
+    position: relative;
+    overflow: hidden;
+}
+
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--main-o-100);
+    padding: 0 10px;
+}
+nav #logo {
+    height: 45px;
+    aspect-ratio: 1;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    width: 50%;
+    border: 1px solid red;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    display: none;
+}
+
+nav button {
+    height: 35px;
+    width: 105px;
+    border-radius: var(--small-br);
+    background: var(--main-colour-300);
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: var(--section-heading-fw);
+    color: var(--light-tc);
+    display: none;
+}
+header h1 {
+    font-weight: var(--main-heading-fw);
+    color: var(--secondary-colour-300);
+    position: absolute;
+    left: 50%;
+    top: 57%;
+    transform: translate(-50% , -50%);
+}
+header h1 .word {
+    font-size: 10.0rem;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+header h1 .two {
+    top: -50px;
+}
+header h1 .three {
+    top: -100px;
+}
+/* _____________________________ */
+
+header .CTA_information {
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--main-o-200);
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    z-index: 2;
+/*     backdrop-filter: blur(10px);
+ */}
+header .CTA_information .actions{
+    width: 75%;
+    border: blueviolet 1px solid ;
+    display: grid;
+    justify-content: center;
+}
+
+header .CTA_information .actions h6 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: var(--light-tc);
+}
+
+header .CTA_information .actions button {
+    width: 276px;
+    height: 50px;
+    border-radius: var(--bigger-br);
+    border: none;
+    justify-self: center;
+    outline: none;
+    margin-top: 15px;
+    background: var(--main-colour-300);
+    color: var(--light-tc);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--section-heading-fw);
+}
+
+/* ----------header done----- */
+
+#ourStory{
+    background: var(--main-colour-100);
+    height: 100vh;
+    padding: /* var(--padding) */ 20px;
+    position: relative;
+    display: grid;
+    align-content:center ;
+}
+
+#ourStory .fade-transition_ourstory-top {
+    position: absolute;
+    inset: 0;
+    border: 1px solid red;
+    height: 10vh;
+    width: 100%;
+    background: linear-gradient(180deg , var(--Secondary-colour-300) , var(--main-colour-100));
+}
+#ourStory aside{
+    height: 80vh;
+    background: var(--main-colour-100);
+    display: grid;
+    align-content:center ;
+    justify-content: center;
+    color: var(--Secondary-colour-300);
+}
+
+#ourStory aside h3 {
+    font-size: 6rem;
+    text-align: left;
+    font-weight: var(--section-heading-fw);
+}
+#ourStory aside p {
+    font-size: 1.5rem;
+}
+#ourStory aside .ReadMore {
+    margin-top: 60px;
+    font-weight: var(--section-heading-fw);
+    text-decoration: underline;
+}
+#ourStory .fade-transition_ourstory-bottom{
+    position: absolute;
+    bottom: 0;
+    border: 1px solid red;
+    height: 10vh;
+    width: 100%;
+    background: linear-gradient(180deg ,  var(--main-colour-100) ,var(--Secondary-colour-300) );
+
+}
+
+/* -------------------Dance STyles sections */
+
+#danceStyles {
+    position: relative;
+    background: green;
+}
+#danceStyles .first-dance_container{
+    width: 100%;
+    padding: 40px 20px;
+}
+#danceStyles .second-dance_container{
+    width: 100%;
+    padding: 40px 20px;
+}
+
+#danceStyles  .hiphop-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#danceStyles .hiphop-header h5{
+    font-size: 6rem;
+    font-weight: var(--section-heading-fw);
+    color: var(--secondary-colour-300);
+}
+#danceStyles  .hiphop-header .block-line {
+    height: 40px;
+    width: 100px;
+    background: var(--Secondary-colour-300);
+}
+
+#danceStyles .img_dance-style-display{
+    width: 100%;
+    aspect-ratio: 1/0.69;
+    background-color: green;
+    margin-bottom:10px;
+}
+
+#danceStyles  p {
+    font-size: 1.1rem;
+}
+
+#danceStyles .ReadMore{
+    margin-top: 60px;
+    font-weight: var(--section-heading-fw);
+    text-decoration: underline;
+}
+
+#danceStyles .hiphop-header .block-line {
+    height: 40px;
+    width: 110px;
+    background: var(--Secondary-colour-300);
+}
+#danceStyles .second-dance_container .hiphop-header h5{
+    font-size: 6rem;
+    font-weight: var(--section-heading-fw);
+    color: var(--secondary-colour-300);
+}
+
+/* ======================FAQ sectionm from here outwards====== */
+#FAQ{
+    position: relative;
+    overflow-x: hidden;
+}
+
+#FAQ h2 {
+    font-weight: var(--main-heading-fw);
+    color: var(--main-o-100);
+    position: absolute;
+    inset: 0;
+    transform: translateY(0%);
+}
+
+#FAQ h2 .word {
+    font-size: 6.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+
+#FAQ h2 .three {
+    top: -70px;
+}
+#FAQ h2 .two {
+    top: -35px;
+}
+
+#FAQ .FAQ_inner-container{
+    position: relative;
+    padding: 80px 20px 40px;
+    background: var(--main-colour-200);
+}
+
+#FAQ .question_container{
+    background: var(--main-colour-100);
+    padding: 20px 8px;
+    border-radius: var(--small-br);
+    margin: 30px 0;
+}
+
+#FAQ .question_container .questionContainerHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#FAQ .question_container .questionContainerHeader h5{
+    font-size: 2.5rem;
+    font-weight: var(--section-heading-fw);
+}
+#FAQ .question_container .questionContainerHeader .block-line{
+    height: 24px;
+    background: var(--Secondary-colour-300);
+    width: 60px;
+}
+#FAQ .question_container p{
+    font-size: 1.1rem;
+    margin-block: 15px;
+}
+#FAQ .question_container .FAQcontact{
+    width: 94px;
+    height: 30px;
+    border-radius: var(--small-br);
+    border: none;
+    justify-self: center;
+    outline: none;
+    margin-top: 20px;
+    background: var(--main-colour-300);
+    color: var(--light-tc);
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--section-heading-fw);
+}
+
+/* --------------footer from here onwards */
+
+footer{
+    position: relative;
+    background: var(--Secondary-colour-300);
+    height: 105dvh;
+    overflow: hidden;
+}
+
+footer .upsideDown-triangle{
+    position: relative;
+    
+}
+
+/* footer .upsideDown-triangle .rectangle{
+    height: 55px;
+    background: var(--main-colour-200);
+    position: absolute;
+    width: 100vw;
+    top: 50px;
+} */
+
+footer .upsideDown-triangle .oneBlock{
+    height: 95px;
+    background: var(--main-colour-200);
+    position: absolute;
+    width: 100vw;
+    top: -2px;
+    border-radius: 0 0 200% 200%
+    /* transform: rotate(16deg) translate(-50%); */
+}
+/* footer .upsideDown-triangle .twoBlock{
+    transform: rotate(344deg) translate(44%);
+}
+footer .upsideDown-triangle .thirdBlock{
+    top: -10px;
+} */
+
+
+footer .inner_footer {
+    padding: 130px 20px 20px;
+    color: var(--light-tc);
+    border: red 1px solid ;
+    display: grid;
+    grid-template-rows: 35% 65%;
+    position: relative;
+    z-index: 5;
+    height: 100%;
+}
+
+footer .timeTable_contactForm{
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    gap: 40px   ;
+}
+footer .timeTable_contactForm p {
+    font-size: 1.4rem;
+    text-align: center;
+}
+footer .inner_footer form input {
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--light-tc);
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 6px;
+    text-align: center;
+    color: var(--light-tc);
+}
+
+footer .inner_footer form input::placeholder {
+    color: var(--light-tc);
+    font-size: 1.6rem;
+}
+
+footer .inner_footer form button{
+    background: var(--main-colour-300);
+    margin-top: 20px;
+    color: var(--light-tc);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    font-weight: var(--section-heading-fw);
+    font-size: 2.7rem;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: var(--small-br);
+}
+footer .inner_footer #map{
+    border: 1px solid white;
+    width: -webkit-fill-available;
+    width: fill-available;
+}
+
+footer .inner_footer #map .mapImg{
+    width: 100%;
+    aspect-ratio: 2.043/1;
+    background: bisque;
+}
+
+
+footer .inner_footer #map p {
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+
+footer .inner_footer .map_Link-div{
+    border: 1px salmon solid ;
+    display: grid;
+    gap:40px;
+}
+
+footer .inner_footer .map_Link-div .socials{
+    color: red;
+}
+
+footer .inner_footer .map_Link-div #footer_links{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .inner_footer .map_Link-div ul{
+    
+}
+footer .inner_footer .map_Link-div ul h6{
+    font-weight: var(--section-heading-fw);
+    font-size: 2.2rem;
+    color: var(--main-colour-300);
+    margin-bottom: 10px;
+
+}
+
+footer .inner_footer .map_Link-div ul li{
+    list-style: none;
+    margin: 15px 2px;
+}
+
+footer .inner_footer .map_Link-div ul li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--light-tc);
+
+}
+
+footer h2 {
+    font-weight: var(--main-heading-fw);
+    width: 100vw;
+    color: var(--secondary-colour-300);
+    position: absolute;
+    left: -10px;
+    top: 57%;
+    transform: translateY(-50%);
+}
+footer h2 {
+    font-weight: var(--main-heading-fw);
+    width: 100vw;
+    color: var(--secondary-colour-300);
+    position: absolute;
+    left: -10px;
+    top: 57%;
+    transform: translateY(-50%);
+}
+footer h2 .word {
+    font-size: 10.0rem;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+
+footer h2 .three {
+    top: -100px;
+}
+footer h2 .two {
+    top: -50px;
+}
+
