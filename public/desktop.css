@@ -245,7 +245,7 @@ footer .upsideDown-triangle .oneBlock{
             display: flex;
             flex-direction: column-reverse;
             gap: 110px;
-            padding: 330px 20px 130px;/* not too sure about this too */
+            padding: 330px 20px 80px;/* not too sure about this too */
         }
         footer .inner_footer .map_Link-div{
             display: flex;
