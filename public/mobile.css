@@ -1,4 +1,9 @@
-
+body{
+    color: var(--dark-tc);
+}
+header * {
+    z-index: 5;
+}
 header {
     height: 100svh;
     width: 100%;
@@ -15,6 +20,8 @@ nav{
     justify-content: space-between;
     background: var(--main-o-100);
     padding: 0 10px;
+    position: sticky;
+    top: 0;
 }
 nav #logo {
     height: 45px;
@@ -38,6 +45,10 @@ nav ul li {
     display: none;
 }
 
+nav ul li a{
+    font-size: var(--p-fs);
+}
+
 nav button {
     height: 35px;
     width: 105px;
@@ -45,21 +56,21 @@ nav button {
     background: var(--main-colour-300);
     border: none;
     outline: none;
-    font-size: 16px;
+    font-size: var(--p-fs);
     font-weight: var(--section-heading-fw);
     color: var(--light-tc);
     display: none;
 }
 header h1 {
     font-weight: var(--main-heading-fw);
-    color: var(--secondary-colour-300);
+    color: var(--main-o-200);
     position: absolute;
     left: 50%;
     top: 57%;
     transform: translate(-50% , -50%);
 }
 header h1 .word {
-    font-size: 10.0rem;
+    font-size: var(--header-fs);
     text-transform: uppercase;
     text-align: center;
     position: relative;
@@ -73,21 +84,19 @@ header h1 .three {
 /* _____________________________ */
 
 header .CTA_information {
-    height: 50vh;
+    height: 70vh;
     width: 100%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: var(--main-o-200);
+    background: linear-gradient( 180deg, #00000000 10%, var(--main-o-200) 50% , #00000000);
     display: flex;
     align-items:center ;
     justify-content: center;
-    z-index: 2;
-/*     backdrop-filter: blur(10px);
- */}
+    z-index: 6;
+}
 header .CTA_information .actions{
     width: 75%;
-    border: blueviolet 1px solid ;
     display: grid;
     justify-content: center;
 }
@@ -115,25 +124,64 @@ header .CTA_information .actions button {
     align-items: center;
     font-weight: var(--section-heading-fw);
 }
+header .img-displays {
+    position: absolute;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    inset: 0;
+}
 
+header .img-displays img {
+    width: calc(auto/5);
+    height: calc(100%/10);
+}
+
+.blackOpiqueImghide{
+    position: absolute;
+    z-index: 4;
+    background: var(--main-o-200);
+    height: 100%;
+    width: 100%;
+    inset: 0;
+}
 /* ----------header done----- */
 
 #ourStory{
-    background: var(--main-colour-100);
+    background: var(--secondary-o-100);
     height: 100vh;
-    padding: /* var(--padding) */ 20px;
+    padding: var(--ss-padding) ;
     position: relative;
     display: grid;
-    align-content:center ;
+    align-items: end;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 10;
 }
-
+#ourStory .img-slider_outstory{
+    position: absolute;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    inset: 0;
+}
+#ourStory .img-slider_outstory img {
+    width: calc(auto/5);
+    height: calc(100%/10);
+}
 #ourStory .fade-transition_ourstory-top {
     position: absolute;
     inset: 0;
-    border: 1px solid red;
     height: 10vh;
     width: 100%;
-    background: linear-gradient(180deg , var(--Secondary-colour-300) , var(--main-colour-100));
+    z-index: 5;
+    background: linear-gradient(180deg , var(--main-o-200), var(--main-o-400) , var(--main-colour-100));
 }
 #ourStory aside{
     height: 80vh;
@@ -142,29 +190,32 @@ header .CTA_information .actions button {
     align-content:center ;
     justify-content: center;
     color: var(--Secondary-colour-300);
+    position: relative;
+    z-index: 5;
+    padding: var(--ss-padding);
 }
 
 #ourStory aside h3 {
-    font-size: 6rem;
+    font-size: var(--headTwo-fs);
     text-align: left;
     font-weight: var(--section-heading-fw);
 }
-#ourStory aside p {
-    font-size: 1.5rem;
+#ourStory aside p ,  #ourStory aside p a {
+    font-size: var(--p-fs);
+    color: var(--dark-tc);
 }
 #ourStory aside .ReadMore {
     margin-top: 60px;
     font-weight: var(--section-heading-fw);
     text-decoration: underline;
 }
-#ourStory .fade-transition_ourstory-bottom{
+#ourStory .outStoryImgCover{
     position: absolute;
-    bottom: 0;
-    border: 1px solid red;
-    height: 10vh;
+    background: var(--main-colour-100);
     width: 100%;
-    background: linear-gradient(180deg ,  var(--main-colour-100) ,var(--Secondary-colour-300) );
-
+    height: 80%;
+    top: 10%;
+    z-index: 3;
 }
 
 /* -------------------Dance STyles sections */
@@ -175,11 +226,11 @@ header .CTA_information .actions button {
 }
 #danceStyles .first-dance_container{
     width: 100%;
-    padding: 40px 20px;
+    padding: var(--main-padding) var(--ss-padding);
 }
 #danceStyles .second-dance_container{
     width: 100%;
-    padding: 40px 20px;
+    padding: var(--main-padding) var(--ss-padding);
 }
 
 #danceStyles  .hiphop-header {
@@ -191,16 +242,10 @@ header .CTA_information .actions button {
 }
 
 #danceStyles .hiphop-header h5{
-    font-size: 6rem;
+    font-size: var(--headThree-fs);
     font-weight: var(--section-heading-fw);
     color: var(--secondary-colour-300);
 }
-#danceStyles  .hiphop-header .block-line {
-    height: 40px;
-    width: 100px;
-    background: var(--Secondary-colour-300);
-}
-
 #danceStyles .img_dance-style-display{
     width: 100%;
     aspect-ratio: 1/0.69;
@@ -209,7 +254,7 @@ header .CTA_information .actions button {
 }
 
 #danceStyles  p {
-    font-size: 1.1rem;
+    font-size:var(--ss-fs);
 }
 
 #danceStyles .ReadMore{
@@ -220,13 +265,7 @@ header .CTA_information .actions button {
 
 #danceStyles .hiphop-header .block-line {
     height: 40px;
-    width: 110px;
     background: var(--Secondary-colour-300);
-}
-#danceStyles .second-dance_container .hiphop-header h5{
-    font-size: 6rem;
-    font-weight: var(--section-heading-fw);
-    color: var(--secondary-colour-300);
 }
 
 /* ======================FAQ sectionm from here outwards====== */
@@ -244,7 +283,7 @@ header .CTA_information .actions button {
 }
 
 #FAQ h2 .word {
-    font-size: 6.4rem;
+    font-size: var( --headThree-fs);
     text-transform: uppercase;
     text-align: center;
     position: relative;
@@ -259,7 +298,7 @@ header .CTA_information .actions button {
 
 #FAQ .FAQ_inner-container{
     position: relative;
-    padding: 80px 20px 40px;
+    padding: 80px var(--ss-padding) var(--main-padding);
     background: var(--main-colour-200);
 }
 
@@ -271,21 +310,25 @@ header .CTA_information .actions button {
 }
 
 #FAQ .question_container .questionContainerHeader{
-    display: flex;
+    display: inline-grid;
+    width: 100%;
     align-items: center;
+    grid-template-columns: repeat(2, auto);
     justify-content: space-between;
+    position: relative;
 }
 #FAQ .question_container .questionContainerHeader h5{
-    font-size: 2.5rem;
+    font-size: var(--headFourth-fs);
     font-weight: var(--section-heading-fw);
 }
 #FAQ .question_container .questionContainerHeader .block-line{
     height: 24px;
     background: var(--Secondary-colour-300);
     width: 60px;
+    display: none;
 }
 #FAQ .question_container p{
-    font-size: 1.1rem;
+    font-size: var(--ss-fs);
     margin-block: 15px;
 }
 #FAQ .question_container .FAQcontact{
@@ -345,7 +388,7 @@ footer .upsideDown-triangle .thirdBlock{
 
 
 footer .inner_footer {
-    padding: 130px 20px 20px;
+    padding: 130px var(--ss-padding) 20px;
     color: var(--light-tc);
     border: red 1px solid ;
     display: grid;
@@ -359,10 +402,10 @@ footer .timeTable_contactForm{
     background: blue;
     display: flex;
     flex-direction: column;
-    gap: 40px   ;
+    gap: 40px;
 }
 footer .timeTable_contactForm p {
-    font-size: 1.4rem;
+    font-size:var(--p-fs);
     text-align: center;
 }
 footer .inner_footer form input {
@@ -371,7 +414,7 @@ footer .inner_footer form input {
     border: none;
     border-bottom: 2px solid var(--light-tc);
     width: 100%;
-    font-size: 1.6rem;
+    font-size: var(--p-fs);
     padding: 6px;
     text-align: center;
     color: var(--light-tc);
@@ -379,7 +422,7 @@ footer .inner_footer form input {
 
 footer .inner_footer form input::placeholder {
     color: var(--light-tc);
-    font-size: 1.6rem;
+    font-size: var(--p-fs);
 }
 
 footer .inner_footer form button{
@@ -429,12 +472,12 @@ footer .inner_footer .map_Link-div #footer_links{
     justify-content: space-between;
 }
 
-footer .inner_footer .map_Link-div ul{
+/* footer .inner_footer .map_Link-div ul{
     
-}
+} */
 footer .inner_footer .map_Link-div ul h6{
     font-weight: var(--section-heading-fw);
-    font-size: 2.2rem;
+    font-size: var(--headFourth-fs);
     color: var(--main-colour-300);
     margin-bottom: 10px;
 
@@ -471,7 +514,7 @@ footer h2 {
     transform: translateY(-50%);
 }
 footer h2 .word {
-    font-size: 10.0rem;
+    font-size: var(--header-fs);
     text-transform: uppercase;
     text-align: center;
     position: relative;
@@ -482,5 +525,36 @@ footer h2 .three {
 }
 footer h2 .two {
     top: -50px;
+}
+
+#danceStyles  .hipHop {
+    background-image: url(/media/630ce744-ac46-402a-893b-54e4ae629ef9.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+#danceStyles .AfroBeat{
+    background-image: url(/media/aa0e60a8-f8d9-4224-88c6-5a368eb50f4b.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+#danceStyles .Amapiano{
+    background-image: url(/media/4717f6c4-7b2a-4d86-873c-e858533fd7c7.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+#danceStyles .UrbanDance {
+    background-image: url(/media/e9e90b0c-926f-4b24-9bfb-00985fc2ac2c.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+#danceStyles .BreakDance{
+    background-image: url(/media/4b299c29-05ce-4c92-ac56-fd8aa2a25b62.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+#danceStyles .tiktok{
+    background-image: url(/media/bb91373b-e76a-4108-a26f-bbb54a0b776a.jpeg);
+    background-position: center;
+    background-size: contain;
 }
 

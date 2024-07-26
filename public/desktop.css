@@ -1,7 +1,18 @@
-@media (min-width:1100px) {
+@media (min-width:68.75em) {
+    :root{
+        --header-fs: 20rem;
+        --headTwo-fs: 8.6rem;
+        --headThree-fs: 6rem;
+        --headFourth-fs: 3.3rem;
+        --p-fs: 1.8rem;
+        --ss-fs:1.6rem;
+        
+        --ss-padding:40px;
+    }
+    
     nav{
         height: 100px;
-        padding: 0 40px;
+        padding: 0 40px; /* im not too sure ill check through the file and see any ajustments are required */
     }
     
     nav #logo {
@@ -10,12 +21,12 @@
 
     nav ul li {
         display: flex;
-        font-size: 2.4rem;
         justify-content: center;
     }
     
     nav ul li a{
         text-decoration: none;
+        font-size: var(--ss-fs);
         padding: 10px 20px;
         color: var(--light-tc);
     }
@@ -48,7 +59,7 @@
         transform: translateY(-50%);
     }
     header h1 .word {
-        font-size: 20.0rem;
+        font-size: var(--header-fs);
         text-transform: uppercase;
         text-align: right;
         position: relative;
@@ -63,21 +74,22 @@
     /* _____________________________ */
 
 header .CTA_information {
-    height: 50vh;
-    width: 100%;
+    height: 100vh;
+    width: 50%;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: var(--main-o-200);
+    top: 0%;
+    transform: translateY(-00%);
+    background: linear-gradient(-90deg ,red ,var(--main-o-200)     10%) ;
     display: flex;
     align-items:center ;
     justify-content: start;
-    z-index: 2;
-    margin: 40px;
+    z-index: 7;
+    padding: var(--ss-padding);
+    margin: 100px 0px; /* tHE Same height as  the nav it should be or lemme say the top one only */ 
 /*     backdrop-filter: blur(10px);
  */}
     header .CTA_information .actions{
-        width: 45%;
+        width: 80%;
         border: blueviolet 1px solid ;
         display: grid;
         justify-content: start;
@@ -89,23 +101,43 @@ header .CTA_information {
         text-align: left;
         color: var(--light-tc);
     }
-
+    header .CTA_information .actions button .polygon{
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-bottom: 24px solid var(--light-tc);
+        transform: rotate(90deg);
+    }
     header .CTA_information .actions button {
         width: 276px;
-        height: 60px;
-        border-radius: var(--bigger-br);
-        border: none;
+        height: 67px;
+        border-radius: var(--small-br);
+        border: 4px solid var(--light-tc);
         justify-self: start;
         outline: none;
         margin-top: 30px;
-        background: var(--main-colour-300);
+        background: var(--main-o-200);
         color: var(--light-tc);
         font-size: 3.2rem;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        padding: 10px 25px;
         align-items: center;
         font-weight: var(--section-heading-fw);
+        cursor: pointer;
+        transition: 0.4s ease-in-out;
+        overflow: hidden;
+        
     }
+    header .CTA_information .actions button:hover .polygon{
+        animation: name duration timing-function delay iteration-count direction fill-mode;
+        border-color: red;
+    }
+
+header .img-displays img {
+    width: calc(auto/5);
+    height: calc(100%/6);
+}
+
     /* ----------header done----- */
 
     #ourStory aside{
@@ -119,12 +151,12 @@ header .CTA_information {
         border: 1px solid black;
     }
     #ourStory aside h3 {
-        font-size: 8.2rem;
+        font-size: var(--headTwo-fs);
         text-align: left;
         font-weight: var(--section-heading-fw);
     }
     #ourStory aside p {
-        font-size: 1.9rem;
+        font-size: var(--p-fs);
     }
     #ourStory aside .ReadMore {
         margin-top: 60px;
@@ -140,16 +172,6 @@ header .CTA_information {
         display: flex;
     }
      /* -------------------Dance STyles sections */
-     #FAQ .FAQ_inner-container{
-        position: relative;
-        padding: 130px 60px 40px;
-        background: var(--main-colour-200);
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 50% 50%;
-        gap: 10px;
-    }
-
     #danceStyles .first-dance_container{
         width: 45%;
         padding: 40px 20px;
@@ -163,7 +185,7 @@ header .CTA_information {
     
         #FAQ .FAQ_inner-container{
             position: relative;
-            padding: 130px 60px 40px;
+            padding: 160px 60px 40px; /* im not sure ill check through the document */
             background: var(--main-colour-200);
             display: grid;
             grid-template-columns: 50% 50%;
@@ -173,7 +195,7 @@ header .CTA_information {
 
         #FAQ .question_container{
             background: var(--main-colour-100);
-            padding: 40px 20px;
+            padding: 40px 20px; /* im not sure ill check through the document */
             border-radius: var(--bigger-br);
             margin: 30px 0;
         }
@@ -181,26 +203,25 @@ header .CTA_information {
         #FAQ h2 {
             font-weight: var(--main-heading-fw);
             width: 100vw;
-            color: red;
             position: absolute;
             inset: 0;
-            top: -40px;
+            top: -35px;
             transform: translateY(0%);
             z-index: 10;
         }
         
         #FAQ h2 .word {
-            font-size: 9.4rem;
+            font-size: var(--headTwo-fs);
             text-transform: uppercase;
             text-align: right;
             position: relative;
         }
         
         #FAQ h2 .three {
-            top: -70px;
+            top: -130px;
         }
         #FAQ h2 .two {
-            top: -35px;
+            top: -65px;
         }
 /* -----------------------footer---------- */
 
@@ -224,14 +245,14 @@ footer .upsideDown-triangle .oneBlock{
             display: flex;
             flex-direction: column-reverse;
             gap: 110px;
-            padding: 330px 20px 130px;
+            padding: 330px 20px 130px;/* not too sure about this too */
         }
         footer .inner_footer .map_Link-div{
             display: flex;
             flex-direction: row-reverse;
             gap: 200px;
             justify-content: space-between;
-            padding: 0 60px;
+            padding: 0 60px; /* not too sure about this too */
             height: fit-content;
         }
 
@@ -249,12 +270,12 @@ footer .upsideDown-triangle .oneBlock{
     }
     footer .inner_footer #map p {
         margin-top: 10px;
-        font-size: 1.4rem;
+        font-size: var(--p-fs);
         text-align: right;
     }
     footer .inner_footer .map_Link-div ul h6{
         font-weight: var(--section-heading-fw);
-        font-size: 2.8rem;
+        font-size: var(--headFourth-fs);
         color: var(--main-colour-300);
         margin-bottom: 0px;
 
@@ -267,7 +288,7 @@ footer .upsideDown-triangle .oneBlock{
 
     footer .inner_footer .map_Link-div ul li a{
         text-decoration: none;
-        font-size: 1.7rem;
+        font-size: var(--p-fs);
         color: var(--light-tc);
 
     }
@@ -284,7 +305,7 @@ footer .upsideDown-triangle .oneBlock{
         transform: translateX(-100%);
     }
     footer .timeTable_contactForm p {
-        font-size: 2rem;
+        font-size: var(--p-fs);
         text-align: left;
     }
     footer .inner_footer form {
@@ -297,7 +318,7 @@ footer .upsideDown-triangle .oneBlock{
         border: none;
         border-bottom: 2px solid var(--light-tc);
         width: 100%;
-        font-size: 2rem;
+        font-size: var(--p-fs);
         padding: 6px;
         text-align: left;
         height: 50px;
@@ -308,7 +329,7 @@ footer .upsideDown-triangle .oneBlock{
 
     footer .inner_footer form input::placeholder {
         color: var(--dark-tc);
-        font-size: 2rem;
+        font-size: var(--p-fs);
     }
 
     footer .inner_footer form button{
@@ -346,7 +367,7 @@ footer .upsideDown-triangle .oneBlock{
         transform: translateY(-50%);
     }
     footer h2 .word {
-        font-size: 20.0rem;
+        font-size: var(--header-fs);
         text-transform: uppercase;
         text-align: left;
         position: relative;

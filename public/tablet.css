@@ -1,7 +1,14 @@
-@media (min-width:500px) and (max-width:1099px){
+@media (min-width:31.25em) and (max-width:68.69em){
+    :root {
+        --header-fs: 16rem;
+        --headTwo-fs: 7.4rem;
+        --headFourth-fs: 2.8rem;
+        --p-fs: 1.6rem;
+        --ss-fs:1.3rem;
+    }
     nav{
         height: 80px;
-        padding: 0 40px;
+        padding: 0 var(--ss-padding);
     }
     nav #logo {
         height: 47px;
@@ -43,16 +50,16 @@
         transform: translate(-50% , -50%);
     }
     header h1 .word {
-        font-size: 19.0rem;
+        font-size: var(--header-fs);
         text-transform: uppercase;
         text-align: center;
         position: relative;
     }
     header h1 .two {
-        top: -100px;
+        top: -115px;
     }
     header h1 .three {
-        top: -200px;
+        top: -230px;
     }
       /* ----------header done----- */
 
@@ -67,12 +74,12 @@
         border: 1px solid black;
     }
     #ourStory aside h3 {
-        font-size: 8.2rem;
+        font-size: var(--headTwo-fs);
         text-align: left;
         font-weight: var(--section-heading-fw);
     }
     #ourStory aside p {
-        font-size: 1.9rem;
+        font-size: var(--p-fs);
     }
     #ourStory aside .ReadMore {
         margin-top: 60px;
@@ -91,7 +98,7 @@
     /* -------------------Dance STyles sections */
     #FAQ .FAQ_inner-container{
         position: relative;
-        padding: 130px 60px 40px;
+        padding: 150px 60px 40px;/* im not sure about this one */
         background: var(--main-colour-200);
         display: grid;
         grid-template-columns: 50% 50%;
@@ -101,16 +108,16 @@
 
     #danceStyles .first-dance_container{
         width: 50%;
-        padding: 40px 20px;
+        padding: 40px 20px; /* im not sure about this one */
     }
     #danceStyles .second-dance_container{
-        width: 50%;
-        padding: 40px 20px;
+        width: 50%; 
+        padding: 40px 20px; /* im not sure about this one */
     }
 /* --------=Frequantly Asked Questions */
     #FAQ .question_container{
         background: var(--main-colour-100);
-        padding: 40px 40px;
+        padding: var(--ss-padding); /* im not sure about this one */
         border-radius: var(--bigger-br);
         margin: 30px 0;
     }
@@ -118,26 +125,25 @@
     #FAQ h2 {
         font-weight: var(--main-heading-fw);
         width: 100vw;
-        color: red;
         position: absolute;
         inset: 0;
-        top: -40px;
+        top: -25px;
         transform: translateY(0%);
         z-index: 10;
     }
     
     #FAQ h2 .word {
-        font-size: 9.4rem;
+        font-size: var(--headTwo-fs);
         text-transform: uppercase;
         text-align: right;
         position: relative;
     }
     
     #FAQ h2 .three {
-        top: -70px;
+        top: -100px; /* need to adjust these ones too */
     }
     #FAQ h2 .two {
-        top: -35px;
+        top: -50px;
     }
 
 
@@ -163,7 +169,7 @@ footer .upsideDown-triangle .oneBlock{
             display: flex;
             flex-direction: row-reverse;
             gap: 40px;
-            padding: 330px 40px 130px;
+            padding: 330px var(--ss-padding) 130px;
         }
         footer .inner_footer .map_Link-div{
             display: flex;
@@ -192,7 +198,7 @@ footer .upsideDown-triangle .oneBlock{
         }
         footer .inner_footer .map_Link-div ul h6{
             font-weight: var(--section-heading-fw);
-            font-size: 2.8rem;
+            font-size: var( --headFourth-fs);
             color: var(--main-colour-300);
             margin-bottom: 0px;
         }
@@ -204,7 +210,7 @@ footer .upsideDown-triangle .oneBlock{
     
         footer .inner_footer .map_Link-div ul li a{
             text-decoration: none;
-            font-size: 1.7rem;
+            font-size: var( --p-fs);
             color: var(--light-tc);
         }
 /* ----------.timeTable_contactForm--- */
@@ -225,7 +231,7 @@ footer .upsideDown-triangle .oneBlock{
             flex-wrap: nowrap;
         }
         footer .timeTable_contactForm p {
-            font-size: 1.8rem;
+            font-size: var( --p-fs);
             text-align: left;
         }
         footer .inner_footer form input {
@@ -245,7 +251,7 @@ footer .upsideDown-triangle .oneBlock{
     
         footer .inner_footer form input::placeholder {
             color: var(--dark-tc);
-            font-size: 2rem;
+            font-size: var( --p-fs);
         }
         
     
@@ -274,6 +280,7 @@ footer .upsideDown-triangle .oneBlock{
         left: -10px;
         top: 57%;
         transform: translateY(-50%);
+        background-color: blue;
     }
     footer h2 {
         font-weight: var(--main-heading-fw);
@@ -285,17 +292,17 @@ footer .upsideDown-triangle .oneBlock{
         transform: translateY(-50%);
     }
     footer h2 .word {
-        font-size: 20.0rem;
+        font-size: var(--header-fs);
         text-transform: uppercase;
         text-align: right;
         position: relative;
     }
     
     footer h2 .three {
-        top: -250px;
+        top: -230px;
     }
     footer h2 .two {
-        top: -125px;
+        top: -115px;
     }
 
 
