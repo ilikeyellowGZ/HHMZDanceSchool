@@ -86,6 +86,16 @@
         font-weight: var(--section-heading-fw);
         text-decoration: underline;
     }
+
+    #ourStory .outStoryImgCover{
+        position: absolute;
+        background: var(--main-colour-100);
+        width: 100%;
+        height: 90%;
+        top: 10%;
+        z-index: 3;
+    }
+    
 /* ===================================Dance styles==--==-=-=-=- */
 
     #danceStyles{
@@ -280,7 +290,6 @@ footer .upsideDown-triangle .oneBlock{
         left: -10px;
         top: 57%;
         transform: translateY(-50%);
-        background-color: blue;
     }
     footer h2 {
         font-weight: var(--main-heading-fw);
