@@ -1,0 +1,501 @@
+@media (min-width:37.5em) and (max-width:40.56em) {
+    /* 600px - 649px */
+    :root{
+        --header-fs: 13.5rem !important;
+    }
+    header h1 .word {
+        font-size: var(--header-fs);
+
+    }
+    header h1 .two {
+        top: -100px !important;
+    }
+    header h1 .three {
+        top: -200px !important;
+    }
+    footer h2 .word {
+        font-size: var(--header-fs);
+    }
+    footer h2 .three {
+        top: -200px !important;
+    }
+    footer h2 .two {
+        top: -100px !important;
+    }
+
+        .img-displays img {
+        width: calc(auto/5);
+        height: calc(100%/8.4)!important;
+    }
+}
+
+@media (min-width:40.625em) and (max-width:43.69em) {
+    /* 650px - 699px */
+    :root{
+        --header-fs: 13.5rem !important;
+    }
+    header h1 .word {
+        font-size: var(--header-fs);
+
+    }
+    header h1 .two {
+        top: -100px !important;
+    }
+    header h1 .three {
+        top: -200px !important;
+    }
+    footer h2 .word {
+        font-size: var(--header-fs);
+    }
+    footer h2 .three {
+        top: -200px !important;
+    }
+    footer h2 .two {
+        top: -100px !important;
+    }
+
+        .img-displays img {
+        width: calc(auto/5);
+        height: calc(100%/8)!important;
+    }
+}
+
+@media (min-width:43.75em) and (max-width:46.81em) {
+    /* 700px - 749px */
+    :root{
+        --header-fs: 13.5rem !important;
+    }
+    header h1 .word {
+        font-size: var(--header-fs);
+
+    }
+    header h1 .two {
+        top: -100px !important;
+    }
+    header h1 .three {
+        top: -200px !important;
+    }
+    footer h2 .word {
+        font-size: var(--header-fs);
+    }
+    footer h2 .three {
+        top: -200px !important;
+    }
+    footer h2 .two {
+        top: -100px !important;
+    }
+        .img-displays img {
+        width: calc(auto/5);
+        height: calc(100%/8)!important;
+    }
+}
+
+@media (min-width:46.875em) and (max-width:49.94em) {
+    /* 750px - 799px */
+
+        .img-displays img {
+        width: calc(auto/5);
+        height: calc(100%/7.8)!important;
+    }
+}
+
+@media (min-width:50em) and (max-width:53.06em) {
+    /* 800px - 849px */
+        .img-displays img {
+        width: calc(auto/5);
+        height: calc(100%/7.8) !important;
+    }
+}
+
+@media (min-width:53.125em) and (max-width:56.19em) {
+    /* 850px - 899px */
+        .img-displays img {
+        width: calc(auto/5);
+        height: calc(100%/7.8) !important;
+    }
+
+    #danceStyles .hiphop-header .TikTok {
+        width: 13.75rem; /* 220px */
+    }
+    #danceStyles .hiphop-header .breakDance {
+        width: 5rem; /* 80px */
+    }
+    #danceStyles .hiphop-header .urbanDance {
+        width: 4.375rem; /* 70px */
+    }
+    #danceStyles .hiphop-header .amapianoBlock {
+        width: 8.125rem; /* 130px */
+    }
+    #danceStyles .hiphop-header .HipHop {
+        width: 12.5rem; /* 200px */
+    }
+    #danceStyles .hiphop-header .afroBeat {
+        width: 10.625rem; /* 170px */
+    }
+}
+
+@media (min-width:56.25em) and (max-width:59.31em) {
+    /* 900px - 949px */
+        .img-displays img {
+        width: calc(auto/5);
+        height: calc(100%/7.5) !important;
+    }
+    #danceStyles .hiphop-header .TikTok {
+        width: 15rem; /* 240px */
+    }
+    #danceStyles .hiphop-header .breakDance {
+        width: 6.25rem; /* 100px */
+    }
+    #danceStyles .hiphop-header .urbanDance {
+        width: 5.625rem; /* 90px */
+    }
+    #danceStyles .hiphop-header .amapianoBlock {
+        width: 9.375rem; /* 150px */
+    }
+    #danceStyles .hiphop-header .HipHop {
+        width: 13.75rem; /* 220px */
+    }
+    #danceStyles .hiphop-header .afroBeat {
+        width: 11.875rem; /* 190px */
+    }
+}
+
+@media (min-width:59.375em) and (max-width:62.44em) {
+    /* 950px - 999px */
+        .img-displays img {
+        width: calc(auto/5);
+        height: calc(100%/7) !important;
+    }
+    #danceStyles .hiphop-header .TikTok {
+        width: 16.25rem; /* 260px */
+    }
+    #danceStyles .hiphop-header .breakDance {
+        width: 7.5rem; /* 120px */
+    }
+    #danceStyles .hiphop-header .urbanDance {
+        width: 6.875rem; /* 110px */
+    }
+    #danceStyles .hiphop-header .amapianoBlock {
+        width: 10.625rem; /* 170px */
+    }
+    #danceStyles .hiphop-header .HipHop {
+        width: 15rem; /* 240px */
+    }
+    #danceStyles .hiphop-header .afroBeat {
+        width: 13.125rem; /* 210px */
+    }
+}
+
+@media (min-width:62.5em) and (max-width:65.56em) {
+    /* 1000px - 1049px */
+        .img-displays img {
+        width: calc(auto/5);
+        height: calc(100%/7.5) !important;
+    }
+    #danceStyles .hiphop-header .TikTok {
+        width: 17.5rem; /* 280px */
+    }
+    #danceStyles .hiphop-header .breakDance {
+        width: 8.75rem; /* 140px */
+    }
+    #danceStyles .hiphop-header .urbanDance {
+        width: 8.125rem; /* 130px */
+    }
+    #danceStyles .hiphop-header .amapianoBlock {
+        width: 11.875rem; /* 190px */
+    }
+    #danceStyles .hiphop-header .HipHop {
+        width: 16.25rem; /* 260px */
+    }
+    #danceStyles .hiphop-header .afroBeat {
+        width: 14.375rem; /* 230px */
+    }
+}
+
+@media (min-width:65.625em) and (max-width:68.69em) {
+    /* 1050px - 1099px */
+        .img-displays img {
+        width: calc(auto/5);
+        height: calc(100%/7.5) !important;
+    }
+    #danceStyles .hiphop-header .TikTok {
+        width: 18.75rem; /* 300px */
+    }
+    #danceStyles .hiphop-header .breakDance {
+        width: 10rem; /* 160px */
+    }
+    #danceStyles .hiphop-header .urbanDance {
+        width: 9.375rem; /* 150px */
+    }
+    #danceStyles .hiphop-header .amapianoBlock {
+        width: 13.125rem; /* 210px */
+    }
+    #danceStyles .hiphop-header .HipHop {
+        width: 17.5rem; /* 280px */
+    }
+    #danceStyles .hiphop-header .afroBeat {
+        width: 15.625rem; /* 250px */
+    }
+}
+
+@media (min-width:68.75em) and (max-width:71.81em) {
+    /* 1100px - 1149px */
+    .img-displays img{
+        width: calc(auto/5);
+        height: calc(100%/7) !important;
+    }
+    #danceStyles .hiphop-header .TikTok {
+        width: 20rem; /* 320px */
+    }
+    #danceStyles .hiphop-header .breakDance {
+        width: 11.25rem; /* 180px */
+    }
+    #danceStyles .hiphop-header .urbanDance {
+        width: 10.625rem; /* 170px */
+    }
+    #danceStyles .hiphop-header .amapianoBlock {
+        width: 14.375rem; /* 230px */
+    }
+    #danceStyles .hiphop-header .HipHop {
+        width: 18.75rem; /* 300px */
+    }
+    #danceStyles .hiphop-header .afroBeat {
+        width: 16.875rem; /* 270px */
+    }
+}
+
+@media (min-width:71.875em) and (max-width:74.94em) {
+    /* 1150px - 1199px */
+    .img-displays img {
+        width: calc(auto/5);
+        height: calc(100%/7) !important;
+    }
+    #danceStyles .hiphop-header .TikTok {
+        width: 21.25rem; /* 340px */
+    }
+    #danceStyles .hiphop-header .breakDance {
+        width: 12.5rem; /* 200px */
+    }
+    #danceStyles .hiphop-header .urbanDance {
+        width: 11.875rem; /* 190px */
+    }
+    #danceStyles .hiphop-header .amapianoBlock {
+        width: 15.625rem; /* 250px */
+    }
+    #danceStyles .hiphop-header .HipHop {
+        width: 20rem; /* 320px */
+    }
+    #danceStyles .hiphop-header .afroBeat {
+        width: 18.125rem; /* 290px */
+    }
+}
+
+@media (min-width:75em) and (max-width:78.06em) {
+    /* 1200px - 1249px */
+    .img-displays img {
+        width: calc(auto/5);
+        height: calc(100%/6.5) !important;
+    }
+    #danceStyles .hiphop-header .TikTok {
+        width: 22.5rem; /* 360px */
+    }
+    #danceStyles .hiphop-header .breakDance {
+        width: 13.75rem; /* 220px */
+    }
+    #danceStyles .hiphop-header .urbanDance {
+        width: 13.125rem; /* 210px */
+    }
+    #danceStyles .hiphop-header .amapianoBlock {
+        width: 16.875rem; /* 270px */
+    }
+    #danceStyles .hiphop-header .HipHop {
+        width: 21.25rem; /* 340px */
+    }
+    #danceStyles .hiphop-header .afroBeat {
+        width: 19.375rem; /* 310px */
+    }
+}
+
+@media (min-width:78.125em) and (max-width:81.19em) {
+    /* 1250px - 1299px */
+    .img-displays img {
+        width: calc(auto/5);
+        height: calc(100%/6.3) !important;
+    }
+    #danceStyles .hiphop-header .TikTok {
+        width: 23.75rem; /* 380px */
+    }
+    #danceStyles .hiphop-header .breakDance {
+        width: 15rem; /* 240px */
+    }
+    #danceStyles .hiphop-header .urbanDance {
+        width: 14.375rem; /* 230px */
+    }
+    #danceStyles .hiphop-header .amapianoBlock {
+        width: 18.125rem; /* 290px */
+    }
+    #danceStyles .hiphop-header .HipHop {
+        width: 22.5rem; /* 360px */
+    }
+    #danceStyles .hiphop-header .afroBeat {
+        width: 20.625rem; /* 330px */
+    }
+}
+
+@media (min-width:81.25em) and (max-width:84.31em) {
+    /* 1300px - 1349px */
+    .img-displays img {
+        width: calc(auto/5);
+        height: calc(100%/6.2) !important;
+    }
+    #danceStyles .hiphop-header .TikTok {
+        width: 25rem; /* 400px */
+    }
+    #danceStyles .hiphop-header .breakDance {
+        width: 16.25rem; /* 260px */
+    }
+    #danceStyles .hiphop-header .urbanDance {
+        width: 15.625rem; /* 250px */
+    }
+    #danceStyles .hiphop-header .amapianoBlock {
+        width: 19.375rem; /* 310px */
+    }
+    #danceStyles .hiphop-header .HipHop {
+        width: 23.75rem; /* 380px */
+    }
+    #danceStyles .hiphop-header .afroBeat {
+        width: 21.875rem; /* 350px */
+    }
+}
+
+@media (min-width:84.375em) and (max-width:87.44em) {
+    /* 1350px - 1399px */
+    .img-displays img {
+        width: calc(auto/5);
+        height: calc(100%/6) !important;
+    }
+    #danceStyles .hiphop-header .TikTok {
+        width: 26.25rem; /* 420px */
+    }
+    #danceStyles .hiphop-header .breakDance {
+        width: 17.5rem; /* 280px */
+    }
+    #danceStyles .hiphop-header .urbanDance {
+        width: 16.875rem; /* 270px */
+    }
+    #danceStyles .hiphop-header .amapianoBlock {
+        width: 20.625rem; /* 330px */
+    }
+    #danceStyles .hiphop-header .HipHop {
+        width: 25rem; /* 400px */
+    }
+    #danceStyles .hiphop-header .afroBeat {
+        width: 23.125rem; /* 370px */
+    }
+}
+
+@media (min-width:87.5em) and (max-width:90.56em) {
+    /* 1400px - 1449px */
+
+    .img-displays img {
+        width: calc(auto/5);
+        height: calc(100%/5.7) !important;
+    }
+    #danceStyles .hiphop-header .TikTok {
+        width: 27.5rem; /* 440px */
+    }
+    #danceStyles .hiphop-header .breakDance {
+        width: 18.75rem; /* 300px */
+    }
+    #danceStyles .hiphop-header .urbanDance {
+        width: 18.125rem; /* 290px */
+    }
+    #danceStyles .hiphop-header .amapianoBlock {
+        width: 21.875rem; /* 350px */
+    }
+    #danceStyles .hiphop-header .HipHop {
+        width: 26.25rem; /* 420px */
+    }
+    #danceStyles .hiphop-header .afroBeat {
+        width: 24.375rem; /* 390px */
+    }
+}
+
+@media (min-width:90.625em) and (max-width:93.69em) {
+    /* 1450px - 1499px */
+
+    .img-displays img {
+        width: calc(auto/5);
+        height: calc(100%/5.5) !important;
+    }
+    #danceStyles .hiphop-header .TikTok {
+        width: 28.75rem; /* 460px */
+    }
+    #danceStyles .hiphop-header .breakDance {
+        width: 20rem; /* 320px */
+    }
+    #danceStyles .hiphop-header .urbanDance {
+        width: 19.375rem; /* 310px */
+    }
+    #danceStyles .hiphop-header .amapianoBlock {
+        width: 23.125rem; /* 370px */
+    }
+    #danceStyles .hiphop-header .HipHop {
+        width: 27.5rem; /* 440px */
+    }
+    #danceStyles .hiphop-header .afroBeat {
+        width: 25.625rem; /* 410px */
+    }
+}
+
+@media (min-width:93.75em) and (max-width:96.81em) {
+    /* 1500px - 1549px */
+    .img-displays img {
+        width: calc(auto/5);
+        height: calc(100%/5.2) !important;
+    }
+    #danceStyles .hiphop-header .TikTok {
+        width: 30rem; /* 480px */
+    }
+    #danceStyles .hiphop-header .breakDance {
+        width: 21.25rem; /* 340px */
+    }
+    #danceStyles .hiphop-header .urbanDance {
+        width: 20.625rem; /* 330px */
+    }
+    #danceStyles .hiphop-header .amapianoBlock {
+        width: 24.375rem; /* 390px */
+    }
+    #danceStyles .hiphop-header .HipHop {
+        width: 28.75rem; /* 460px */
+    }
+    #danceStyles .hiphop-header .afroBeat {
+        width: 26.875rem; /* 430px */
+    }
+}
+
+@media (min-width:96.875em) and (max-width:99.94em) {
+    /* 1550px - 1599px */
+    .img-displays img {
+        width: calc(auto/5);
+        height: calc(100%/5) !important;
+    }
+    #danceStyles .hiphop-header .TikTok {
+        width: 31.25rem; /* 500px */
+    }
+    #danceStyles .hiphop-header .breakDance {
+        width: 22.5rem; /* 360px */
+    }
+    #danceStyles .hiphop-header .urbanDance {
+        width: 21.875rem; /* 350px */
+    }
+    #danceStyles .hiphop-header .amapianoBlock {
+        width: 25.625rem; /* 410px */
+    }
+    #danceStyles .hiphop-header .HipHop {
+        width: 30rem; /* 480px */
+    }
+    #danceStyles .hiphop-header .afroBeat {
+        width: 28.125rem; /* 450px */
+    }
+}

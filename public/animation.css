@@ -1,0 +1,67 @@
+@keyframes slideIn {
+    from{
+        transform: translateY(-5000px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideOut {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-5000px);
+    }
+}
+@keyframes contactOpen {
+    from{
+        transform: translateX(5000px);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+@keyframes contactClosed {
+    from{
+        transform: translateX(-0%);
+    }
+    to{
+        transform: translateX(-5000px);
+    }
+}
+@keyframes contactOpen1 {
+    from{
+        transform: translateX(5000px);
+    }
+    to{
+        transform: translateX(-50%);
+    }
+}
+@keyframes contactClosed1 {
+    from{
+        transform: translateX(-50%);
+    }
+    to{
+        transform: translateX(-5000px);
+    }
+}
+
+.slideInOpen{
+    animation: contactOpen 0.3s ease-in-out  forwards;
+}
+.slideOutClose{
+    animation: contactClosed 0.3s ease-in-out  forwards;
+}
+
+
+.no-scroll {
+    overflow: hidden;
+}
+.show {
+    animation: slideIn 0.3s ease-in-out  forwards;
+}
+.hide {
+    animation: slideOut 0.3s ease-in-out  forwards;
+}

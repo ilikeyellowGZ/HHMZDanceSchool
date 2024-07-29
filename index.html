@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="/media/HHMZ DANCE-01.png" type="image/x-icon">
     <link rel="icon" type="image/png" sizes="16x16" href="/media/HHMZ DANCE-01.png">
+
     <link rel="stylesheet" href="./public/style.css">
     <link rel="stylesheet" href="./public/mobile.css">
     <link rel="stylesheet" href="./public/desktop.css">
+    <link rel="stylesheet" href="./public/responsive.css">
     <link rel="stylesheet" href="./public/tablet.css">
+    <link rel="stylesheet" href="./public/animation.css">
+    <script src="./public/script.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HHMZ Dance School</title>
 </head>
@@ -21,11 +25,11 @@
                 <li><a href="#"> Dances</a></li>
                 <li><a href="#"> About</a></li>
                 <li><a href="#"> FAQs</a></li>
-                <li><a href="#"> Pricing</a></li>
-                <li><a href="#"> Something</a></li>
+                <li><a href="#"> Location</a></li>
+                <li><a href="#"> Socials</a></li>
             </ul>
             <button id="contact">Contact Us</button>
-            <svg xmlns="http://www.w3.org/2000/svg" height="42px" viewBox="0 -960 960 960" width="48px" fill="#f7ffff"><path d="M153.69-245.62q-12.64 0-21.16-8.76-8.53-8.77-8.53-20.81t8.53-20.43q8.52-8.38 21.16-8.38h653.62q11.67 0 20.18 8.58T836-274.8q0 12.05-8.51 20.61-8.51 8.57-20.18 8.57H153.69Zm0-205.69q-12.64 0-21.16-8.76-8.53-8.77-8.53-20.81t8.53-20.43q8.52-8.38 21.16-8.38h653.62q11.67 0 20.18 8.58t8.51 20.62q0 12.04-8.51 20.61t-20.18 8.57H153.69Zm0-205.69q-12.64 0-21.16-8.76-8.53-8.77-8.53-20.81t8.53-20.43q8.52-8.38 21.16-8.38h653.62q11.67 0 20.18 8.58t8.51 20.62q0 12.04-8.51 20.61T807.31-657H153.69Z"/></svg>
+            <svg id="open" xmlns="http://www.w3.org/2000/svg" height="42px" viewBox="0 -960 960 960" width="48px" fill="#f7ffff"><path d="M153.69-245.62q-12.64 0-21.16-8.76-8.53-8.77-8.53-20.81t8.53-20.43q8.52-8.38 21.16-8.38h653.62q11.67 0 20.18 8.58T836-274.8q0 12.05-8.51 20.61-8.51 8.57-20.18 8.57H153.69Zm0-205.69q-12.64 0-21.16-8.76-8.53-8.77-8.53-20.81t8.53-20.43q8.52-8.38 21.16-8.38h653.62q11.67 0 20.18 8.58t8.51 20.62q0 12.04-8.51 20.61t-20.18 8.57H153.69Zm0-205.69q-12.64 0-21.16-8.76-8.53-8.77-8.53-20.81t8.53-20.43q8.52-8.38 21.16-8.38h653.62q11.67 0 20.18 8.58t8.51 20.62q0 12.04-8.51 20.61T807.31-657H153.69Z"/></svg>
         </nav>
         <div class="header_divider">
             <div class="CTA_information">
@@ -102,7 +106,55 @@
             </div>
         </div>
         <div class="blackOpiqueImghide"></div>
+        <div class="mobile-nav">
+            <svg id="close" xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#f7ffff"><path d="M481-439 269.92-227.92q-8.69 8.69-20.8 8.88-12.12.19-21.2-9.88-9.07-9.08-8.57-20 .5-10.93 9.57-21L439-480 227.92-692.08q-8.69-8.69-8.88-19.8-.19-11.12 8.88-21.2 9.08-9.07 21-9.07 11.93 0 21 9.07L481-522l209.08-211.08q8.69-8.69 20.8-8.88 12.12-.19 21.2 8.88 9.07 10.08 8.57 21-.5 10.93-8.57 20L522-480l210.08 210.08q7.69 8.69 8.38 20.3.69 11.62-8.38 20.7-9.08 10.07-21 10.07-11.93 0-21-9.07L481-439Z"/></svg>
+            <ul>
+                <li><a href="#">Dances</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Socials</a></li>
+            </ul>
+            <div class="logo-display">
+                <img src="./media/HHMZ DANCE-01.png" alt="HHMZ_Dance_School mobile_nav Logo">
+            </div>
+        </div>
+        
     </header>
+    <section id="blackForContact"></section>
+    <section id="contactForm">
+        <!-- insert the h2 header so you can just add it here and no adidtional styling -->
+        <h2>
+            <div class="word">HHMZ</div>
+            <div class="word two">Dance</div>
+            <div class="word three">School</div>
+        </h2>
+        <svg id="closeTwo" xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#f7ffff"><path d="M481-439 269.92-227.92q-8.69 8.69-20.8 8.88-12.12.19-21.2-9.88-9.07-9.08-8.57-20 .5-10.93 9.57-21L439-480 227.92-692.08q-8.69-8.69-8.88-19.8-.19-11.12 8.88-21.2 9.08-9.07 21-9.07 11.93 0 21 9.07L481-522l209.08-211.08q8.69-8.69 20.8-8.88 12.12-.19 21.2 8.88 9.07 10.08 8.57 21-.5 10.93-8.57 20L522-480l210.08 210.08q7.69 8.69 8.38 20.3.69 11.62-8.38 20.7-9.08 10.07-21 10.07-11.93 0-21-9.07L481-439Z"/></svg>
+        <form action="" method="post">
+            <div class="nameSurname firstDiv">
+                <div class="nameDivider secondDiv">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Enter Full Name" required>
+                </div>
+                <div class="surNameDivider secondDiv">
+                    <label for="surName">Surname:</label>
+                    <input type="text" id="surName" name="surName" placeholder="Enter Surname" required>
+                </div>
+            </div>
+            <div class="emailPhoneNo firstDiv">
+                <div class="emailDivider secondDiv">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Email" required>
+                </div>
+                <div class="phoneNoDivider secondDiv">
+                    <label for="phoneNo">Phone Number:</label>
+                    <input type="number" id="phoneNo" name="phoneNo" placeholder="Enter Phone Number" required>
+                </div>
+            </div>
+            <textarea name="subject" id="subject" placeholder="Type your message.."></textarea>
+            <button type="submit">Contact Us</button>
+        </form>
+    </section>
     <section id="ourStory">
         <div class="fade-transition_ourstory-top"></div>
             <aside class="ourStory">
@@ -112,7 +164,7 @@
                     Adipisci at debitis nobis deleniti nisi odio modi similique 
                     autem quidem delectus. Iure optio accusamus, voluptatum dicta deserunt perspiciatis quos.
                 </p>
-                <p class="ReadMore"> <a href="#">Read More >></a></p>
+                <p class="ReadMore"> <a href="https://www.facebook.com/p/HMZ-dance-school-100064402433732/" target="_blank">Read More >></a></p>
             </aside>
             <div class="outStoryImgCover">
                 <div class="img-displays">
@@ -231,6 +283,7 @@
                     <img src="./media/43217d80-1a63-49ae-80c8-d75f7fd948da.jpeg" alt="">
             </div>
         <div class="fade-transition_ourstory-bottom"></div>
+
     </section>
     <section class="dance_display"></section>
     <section id="danceStyles">
@@ -453,9 +506,9 @@
                 <div id="footer_links">
                     <ul class="socials">
                         <h6>Socials</h6>
-                        <li class="links"> <a href="#">Instagram</a></li>
+                        <li class="links"> <a href="https://www.instagram.com/hhmzdance/?hl=en" target="_blank">Instagram</a></li>
                         <li class="links"> <a href="#">YouTube</a></li>
-                        <li class="links"> <a href="#">Facebook</a></li>
+                        <li class="links"> <a href="https://www.facebook.com/p/HMZ-dance-school-100064402433732/" target="_blank">Facebook</a></li>
                         <li class="links"> <a href="#">TikTok</a></li>
                     </ul>
                     <ul class="socials">
