@@ -52,8 +52,11 @@
     from{
         border-left: 12px solid transparent;
         border-right: 12px solid transparent;
-        border-bottom: 24px solid var(--light-tc);
+        border-bottom: 24px solid var(--main-colour-300);
         transform: rotate(90deg);
+    }
+    20%{
+        border-bottom: 24px solid var(--main-colour-300);
     }
     to{
         border-radius: 50%;
@@ -62,6 +65,26 @@
         aspect-ratio: 1;
         background: var(--main-colour-300);
         transform: scale(25);
+    }
+    
+}
+@keyframes mainImg2 {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+@keyframes mainImg {
+    from {
+        transform: translate(0);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    to {
+        transform: translate(0);
     }
     
 }

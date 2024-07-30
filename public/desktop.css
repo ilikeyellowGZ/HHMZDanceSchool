@@ -132,7 +132,7 @@ header .CTA_information {
     }
     
     header .CTA_information .actions button:hover .polygon{
-        animation: polygon 0.3s ease-in-out  forwards ;
+        animation: polygon .4s ease-in  forwards ;
     }
     header .CTA_information .actions button:hover{
         border: none;

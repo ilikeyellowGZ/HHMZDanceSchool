@@ -141,6 +141,7 @@ header .CTA_information .actions button {
 .img-displays img {
     width: calc(auto/5);
     height: calc(100%/10);
+    animation: mainImg 100s linear infinite forwards;
 }
 
 .blackOpiqueImghide{
@@ -547,7 +548,6 @@ footer * {
 footer{
     position: relative;
     background: var(--Secondary-colour-300);
-    height: 115svh;
     overflow: hidden;
 }
 
