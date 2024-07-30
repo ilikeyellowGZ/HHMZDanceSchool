@@ -48,6 +48,24 @@
     }
 }
 
+@keyframes polygon {
+    from{
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-bottom: 24px solid var(--light-tc);
+        transform: rotate(90deg);
+    }
+    to{
+        border-radius: 50%;
+        border: none;
+        height: 20px;
+        aspect-ratio: 1;
+        background: var(--main-colour-300);
+        transform: scale(25);
+    }
+    
+}
+
 .slideInOpen{
     animation: contactOpen 0.3s ease-in-out  forwards;
 }

@@ -45,6 +45,10 @@ nav ul li {
 
 nav ul li a{
     font-size: var(--p-fs);
+    transition: 0.2s ease-in;
+}
+nav ul li a:hover {
+    color: var(--main-colour-200);
 }
 
 nav button {
@@ -207,10 +211,61 @@ header .mobile-nav{
     background-position: center center;
     background-repeat:no-repeat;
     background-size: cover;
-    padding: 80px var(--ss-padding);
+    padding:140px var(--ss-padding);
     z-index: 16;
     inset: 0;
     transform: translateX(5000px);
+}
+#contactForm h2 {
+    position: absolute;
+    display: flex;
+    color: var(--main-colour-300);
+    width: 100%;
+    justify-content: center;
+    inset: 0;
+    top: 13%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#contactForm h2 .word{
+    margin-inline: 10px;
+    font-size: var(--headFourth-fs);
+    text-transform: uppercase;
+    font-weight: var(--main-heading-fw);
+}
+#contactForm .details{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    width: max-content;
+    height: max-content;
+}
+#contactForm .details .CompanyNo , #contactForm .details .CompanyEmail{
+    width: max-content;
+    display: flex; 
+    margin: 10px 5px 0px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contactForm .details svg {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+#contactForm .details .divider{
+    font-size: var(--p-fs);
+    text-align: center;
+    place-content: center;
+    margin-top: 10px;
+    margin-inline: 10px;
+    scale: 1.2;
+}
+
+#contactForm .details p , #contactForm .details a  {
+    color: var(--light-tc);
+    font-size: var(--ss-fs);
+    text-decoration: none;
 }
 
 
@@ -224,6 +279,7 @@ header .mobile-nav{
     flex-direction: column;
     justify-content: center;
     height: 100%;
+    min-height: 460px;
 }
 #contactForm form .firstDiv{
     height: 29%;
@@ -627,14 +683,21 @@ footer .inner_footer .map_Link-div ul h6{
 footer .inner_footer .map_Link-div ul li{
     list-style: none;
     margin: 15px 2px;
+    transition: 0.2s ease;
 }
-
+footer .inner_footer .map_Link-div ul li:hover {
+    transform: translateX(10px);
+}
 footer .inner_footer .map_Link-div ul li a{
     text-decoration: none;
     font-size: 1.4rem;
     color: var(--light-tc);
-
+    transition: 0.2s ease;
 }
+footer .inner_footer .map_Link-div ul li a:hover{
+    color: var(--main-colour-200);
+}
+
 
 footer h2 {
     font-weight: var(--main-heading-fw);

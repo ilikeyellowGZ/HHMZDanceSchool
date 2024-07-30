@@ -3,7 +3,7 @@
         --header-fs: 20rem;
         --headTwo-fs: 8.6rem;
         --headThree-fs: 6rem;
-        --headFourth-fs: 3.3rem;
+        --headFourth-fs: 2.6rem;
         --p-fs: 1.8rem;
         --ss-fs:1.6rem;
         
@@ -106,6 +106,8 @@ header .CTA_information {
         border-right: 12px solid transparent;
         border-bottom: 24px solid var(--light-tc);
         transform: rotate(90deg);
+        z-index: -1;
+        position: relative;
     }
     header .CTA_information .actions button {
         width: 276px;
@@ -128,9 +130,15 @@ header .CTA_information {
         overflow: hidden;
         
     }
+    
     header .CTA_information .actions button:hover .polygon{
-        animation: name duration timing-function delay iteration-count direction fill-mode;
-        border-color: red;
+        animation: polygon 0.3s ease-in-out  forwards ;
+    }
+    header .CTA_information .actions button:hover{
+        border: none;
+    }
+    header .CTA_information .actions button:active{
+        transform: scale(0.95);
     }
     .right-fade{
         height: 10%;
@@ -205,7 +213,7 @@ header .CTA_information {
         inset: 0;
         top: 5%;
         left: 50%;
-        transform: translateX(-5000%);
+        transform: translateX(5000%);
     }
     #contactForm h2 {
         position: absolute;
@@ -235,6 +243,7 @@ header .CTA_information {
         flex-direction: column;
         justify-content: center;
         height: 100%;
+        min-height: 500px;
         width: 80%;
         margin-inline: auto;
         position: relative;
@@ -387,7 +396,6 @@ footer .upsideDown-triangle .oneBlock{
         footer .inner_footer .map_Link-div{
             display: flex;
             flex-direction: row-reverse;
-            gap: 200px;
             justify-content: space-between;
             padding: 0 60px; /* not too sure about this too */
             height: fit-content;
@@ -395,15 +403,23 @@ footer .upsideDown-triangle .oneBlock{
 
         footer .inner_footer .map_Link-div #footer_links {
             display: flex;
-            width: 70%;
+            width: clamp(500px, 70%, 605px);
             justify-content: space-around
         }
 
-
+        footer .inner_footer #map {
+            display: grid;
+            align-content: end;
+            align-items: flex-end;
+            width: -webkit-fill-available;
+            width: fill-available;
+            justify-items: end;
+        }
     footer .inner_footer #map .mapImg{
-    
+        
         aspect-ratio: 2.043/1;
         background: bisque;
+        width: clamp(600px, 70%, 705px);
     }
     footer .inner_footer #map p {
         margin-top: 10px;
@@ -474,6 +490,7 @@ footer .upsideDown-triangle .oneBlock{
         margin-top: 0px;
         color: var(--light-tc);
         width: 50%;
+        max-width: 200px;
         height: 50px;
         display: flex;
         font-weight: var(--section-heading-fw);
