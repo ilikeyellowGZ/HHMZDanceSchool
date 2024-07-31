@@ -418,7 +418,6 @@ footer .upsideDown-triangle .oneBlock{
     footer .inner_footer #map .mapImg{
         
         aspect-ratio: 2.043/1;
-        background: bisque;
         width: clamp(600px, 70%, 705px);
     }
     footer .inner_footer #map p {

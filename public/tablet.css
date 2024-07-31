@@ -204,7 +204,7 @@
 footer{
     position: relative;
     background: var(--Secondary-colour-300);
-    height: 110dvh;
+    height: 115dvh;
     overflow: hidden;
 }
 footer .upsideDown-triangle .oneBlock{
@@ -241,7 +241,6 @@ footer .upsideDown-triangle .oneBlock{
         footer .inner_footer #map .mapImg{
     
             aspect-ratio: 2.043/1;
-            background: bisque;
         }
         footer .inner_footer #map p {
             margin-top: 10px;

@@ -137,7 +137,9 @@ header .CTA_information .actions button {
     justify-content: space-between;
     inset: 0;
 }
-
+footer .img-displays img {
+    animation: mainImg2 100s linear infinite forwards;
+} 
 .img-displays img {
     width: calc(auto/5);
     height: calc(100%/10);
@@ -439,7 +441,7 @@ header .mobile-nav{
 #danceStyles .img_dance-style-display{
     width: 100%;
     aspect-ratio: 1/0.69;
-    background-color: green;
+    background-color: white;
     margin-bottom:10px;
 }
 
@@ -571,13 +573,20 @@ footer .upsideDown-triangle .oneBlock{
     width: 100vw;
     top: -2px;
     border-radius: 0 0 200% 200%;
-    
+    z-index: 10;
+
+
     /* transform: rotate(16deg) translate(-50%); */
 }
-/* footer .upsideDown-triangle .twoBlock{
-    transform: rotate(344deg) translate(44%);
+footer .upsideDown-triangle .twoBlock{
+    width: 100vw;
+    height: 30px;
+    top: 10px;
+    z-index: 10;
+    background: var(--main-colour-200);
+    position: absolute;
 }
-footer .upsideDown-triangle .thirdBlock{
+/* footer .upsideDown-triangle .thirdBlock{
     top: -10px;
 } */
 
@@ -589,7 +598,7 @@ footer .inner_footer {
     grid-template-rows: 35% 65%;
     position: relative;
     z-index: 5;
-    height: 100%;
+    height: max-content;
     background-color: var(--main-o-400);
 }
 

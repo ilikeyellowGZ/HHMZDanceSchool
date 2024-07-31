@@ -69,11 +69,14 @@
     
 }
 @keyframes mainImg2 {
-    from{
-        transform: rotateY(0deg);
+    from {
+        transform: translate(0);
     }
-    to{
-        transform: rotateY(360deg);
+    50%{
+        transform: translateY(100px);
+    }
+    to {
+        transform: translate(0);
     }
 }
 @keyframes mainImg {
