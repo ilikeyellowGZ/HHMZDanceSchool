@@ -109,3 +109,13 @@
 .hide {
     animation: slideOut 0.3s ease-in-out  forwards;
 }
+
+.hiddenText {
+    
+}
+.none {
+    display: none;
+}
+.block {
+    display: block;
+}

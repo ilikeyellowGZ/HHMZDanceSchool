@@ -449,16 +449,19 @@ header .mobile-nav{
     font-size:var(--ss-fs);
 }
 
-#danceStyles .ReadMore{
+#danceStyles .ReadMore , #danceStyles .ReadLess  {
     margin-top: 60px;
     font-weight: var(--section-heading-fw);
     text-decoration: underline;
+    cursor: pointer;
 }
+
 
 #danceStyles .hiphop-header .block-line {
     height: 40px;
     background: var(--Secondary-colour-300);
 }
+
 
 /* ======================FAQ sectionm from here outwards====== */
 #FAQ{

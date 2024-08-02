@@ -313,16 +313,19 @@ header .CTA_information {
     #danceStyles{
         position: relative;
     }
+    #danceStyles .img_dance-style-display{
+        margin-bottom: 30px;
+    }
     #danceStyles .dance_style-divider{
         display: flex;
     }
      /* -------------------Dance STyles sections */
     #danceStyles .first-dance_container{
-        width: 45%;
+        width: 47%;
         padding: 40px 20px;
     }
     #danceStyles .second-dance_container{
-        width: 55%;
+        width: 53%;
         padding: 40px 20px;
     }
 
@@ -373,7 +376,7 @@ header .CTA_information {
 footer{
     position: relative;
     background: var(--Secondary-colour-300);
-    height: 120dvh;
+    height: 115dvh;
     overflow: hidden;
 }
 footer .upsideDown-triangle .oneBlock{
@@ -392,6 +395,7 @@ footer .upsideDown-triangle .oneBlock{
             gap: 110px;
             padding: 345px 20px 60px;/* not too sure about this too */
             justify-content: start;
+            height: 100%;
         }
         footer .inner_footer .map_Link-div{
             display: flex;
