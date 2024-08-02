@@ -203,6 +203,7 @@ header .CTA_information {
     #contactForm{
         height: 90vh;
         width: 90vw;
+        max-width: 1300px;
         background: url(/media/1bfbd7d9-39f7-443b-ab01-31703a8539f0.jpeg);
         position: fixed;
         background-position: center center;
