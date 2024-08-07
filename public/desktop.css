@@ -151,8 +151,7 @@ header .CTA_information {
     }
 
     .img-displays img {
-        width: calc(auto/5);
-        height: calc(100%/4.5);
+        scale: 2.4;
     }
 
     /* ----------header done----- */

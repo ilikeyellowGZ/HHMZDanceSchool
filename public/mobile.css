@@ -130,20 +130,16 @@ header .CTA_information .actions button {
 .img-displays {
     position: absolute;
     z-index: 1;
-    width: 100vw;
-    height: 100vh;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     inset: 0;
+    align-items: center;
 }
-footer .img-displays img {
+/* footer .img-displays img {
     animation: mainImg2 100s linear infinite forwards;
-} 
+}  */
 .img-displays img {
-    width: calc(auto/5);
-    height: calc(100%/10);
-    animation: mainImg 100s linear infinite forwards;
+    height: 100%;
 }
 
 .blackOpiqueImghide{
@@ -557,8 +553,13 @@ footer{
 }
 
 footer .upsideDown-triangle{
-    position: relative;
-    z-index: 6;
+    height: 95px;
+    background: var(--main-colour-200);
+    position: absolute;
+    width: 100vw;
+    top: -2px;
+    border-radius: 0 0 200% 200%;
+    z-index: 10;
 }
 
 /* footer .upsideDown-triangle .rectangle{
@@ -570,14 +571,6 @@ footer .upsideDown-triangle{
 } */
 
 footer .upsideDown-triangle .oneBlock{
-    height: 95px;
-    background: var(--main-colour-200);
-    position: absolute;
-    width: 100vw;
-    top: -2px;
-    border-radius: 0 0 200% 200%;
-    z-index: 10;
-
 
     /* transform: rotate(16deg) translate(-50%); */
 }
@@ -601,7 +594,7 @@ footer .inner_footer {
     grid-template-rows: 35% 65%;
     position: relative;
     z-index: 5;
-    height: max-content;
+    height: 110%;
     background-color: var(--main-o-400);
 }
 

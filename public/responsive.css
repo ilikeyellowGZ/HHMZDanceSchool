@@ -299,6 +299,7 @@
         display: grid;
         grid-template-rows: 35% 65%;
         position: relative;
+        height: 100%;
         z-index: 5;
         background-color: var(--main-o-400);
     }
@@ -492,9 +493,8 @@
         top: -100px !important;
     }
 
-        .img-displays img {
-        width: calc(auto/5);
-        height: calc(100%/8.4)!important;
+    .img-displays img {
+        scale: 1;
     }
     footer .timeTable_contactForm{
         display: flex;
@@ -558,9 +558,8 @@
         top: -100px !important;
     }
 
-        .img-displays img {
-        width: calc(auto/5);
-        height: calc(100%/8)!important;
+    .img-displays img {
+        scale: 1;
     }
     footer .timeTable_contactForm{
         display: flex;
@@ -624,9 +623,8 @@
     footer h2 .two {
         top: -100px !important;
     }
-        .img-displays img {
-        width: calc(auto/5);
-        height: calc(100%/8)!important;
+    .img-displays img {
+        scale: 1.1;
     }
     footer .timeTable_contactForm{
         display: flex;
@@ -668,9 +666,8 @@
     nav ul li a{
         padding: 10px !important;
     }
-        .img-displays img {
-        width: calc(auto/5);
-        height: calc(100%/7.8)!important;
+    .img-displays img {
+        scale: 1.1;
     }
     footer .timeTable_contactForm{
         display: flex;
@@ -707,9 +704,8 @@
     nav ul li a{
         padding: 10px !important;
     }
-        .img-displays img {
-        width: calc(auto/5);
-        height: calc(100%/7.8) !important;
+    .img-displays img {
+        scale: 1.2;
     }
     footer .timeTable_contactForm{
         display: flex;
@@ -746,11 +742,9 @@
     nav ul li a{
         padding: 10px !important;
     }
-        .img-displays img {
-        width: calc(auto/5);
-        height: calc(100%/7.8) !important;
+    .img-displays img {
+        scale: 1.2;
     }
-
     #danceStyles .hiphop-header .TikTok {
         width: 13.75rem; /* 220px */
     }
@@ -773,9 +767,8 @@
 
 @media (min-width:56.25em) and (max-width:59.31em) {
     /* 900px - 949px */
-        .img-displays img {
-        width: calc(auto/5);
-        height: calc(100%/7.5) !important;
+    .img-displays img {
+        scale: 1.3;
     }
     #danceStyles .hiphop-header .TikTok {
         width: 15rem; /* 240px */
@@ -799,9 +792,8 @@
 
 @media (min-width:59.375em) and (max-width:62.44em) {
     /* 950px - 999px */
-        .img-displays img {
-        width: calc(auto/5);
-        height: calc(100%/7) !important;
+    .img-displays img {
+        scale: 1.3;
     }
     #danceStyles .hiphop-header .TikTok {
         width: 16.25rem; /* 260px */
@@ -825,9 +817,8 @@
 
 @media (min-width:62.5em) and (max-width:65.56em) {
     /* 1000px - 1049px */
-        .img-displays img {
-        width: calc(auto/5);
-        height: calc(100%/7.5) !important;
+    .img-displays img {
+        scale: 1.4;
     }
     #danceStyles .hiphop-header .TikTok {
         width: 17.5rem; /* 280px */
@@ -851,9 +842,8 @@
 
 @media (min-width:65.625em) and (max-width:68.69em) {
     /* 1050px - 1099px */
-        .img-displays img {
-        width: calc(auto/5);
-        height: calc(100%/7.5) !important;
+    .img-displays img {
+        scale: 1.4;
     }
     #danceStyles .hiphop-header .TikTok {
         width: 18.75rem; /* 300px */
@@ -877,9 +867,8 @@
 
 @media (min-width:68.75em) and (max-width:71.81em) {
     /* 1100px - 1149px */
-    .img-displays img{
-        width: calc(auto/5);
-        height: calc(100%/7) !important;
+    .img-displays img {
+        scale: 1.4;
     }
     #danceStyles .hiphop-header .TikTok {
         width: 20rem; /* 320px */
@@ -904,8 +893,7 @@
 @media (min-width:71.875em) and (max-width:74.94em) {
     /* 1150px - 1199px */
     .img-displays img {
-        width: calc(auto/5);
-        height: calc(100%/7) !important;
+        scale: 1.5;
     }
     #danceStyles .hiphop-header .TikTok {
         width: 21.25rem; /* 340px */
@@ -930,8 +918,7 @@
 @media (min-width:75em) and (max-width:78.06em) {
     /* 1200px - 1249px */
     .img-displays img {
-        width: calc(auto/5);
-        height: calc(100%/6.5) !important;
+        scale: 1.5;
     }
     #danceStyles .hiphop-header .TikTok {
         width: 22.5rem; /* 360px */
@@ -956,8 +943,7 @@
 @media (min-width:78.125em) and (max-width:81.19em) {
     /* 1250px - 1299px */
     .img-displays img {
-        width: calc(auto/5);
-        height: calc(100%/6.3) !important;
+        scale: 1.9;
     }
     #danceStyles .hiphop-header .TikTok {
         width: 23.75rem; /* 380px */
@@ -982,8 +968,7 @@
 @media (min-width:81.25em) and (max-width:84.31em) {
     /* 1300px - 1349px */
     .img-displays img {
-        width: calc(auto/5);
-        height: calc(100%/6.2) !important;
+        scale: 1.9;
     }
     #danceStyles .hiphop-header .TikTok {
         width: 25rem; /* 400px */
@@ -1008,8 +993,7 @@
 @media (min-width:84.375em) and (max-width:87.44em) {
     /* 1350px - 1399px */
     .img-displays img {
-        width: calc(auto/5);
-        height: calc(100%/6) !important;
+        scale: 1.9;
     }
     #danceStyles .hiphop-header .TikTok {
         width: 26.25rem; /* 420px */
@@ -1035,8 +1019,7 @@
     /* 1400px - 1449px */
 
     .img-displays img {
-        width: calc(auto/5);
-        height: calc(100%/5.7) !important;
+        scale: 1.9;
     }
     #danceStyles .hiphop-header .TikTok {
         width: 27.5rem; /* 440px */
@@ -1062,8 +1045,7 @@
     /* 1450px - 1499px */
 
     .img-displays img {
-        width: calc(auto/5);
-        height: calc(100%/5.5) !important;
+        scale: 1.9;
     }
     #danceStyles .hiphop-header .TikTok {
         width: 28.75rem; /* 460px */
@@ -1088,8 +1070,7 @@
 @media (min-width:93.75em) and (max-width:96.81em) {
     /* 1500px - 1549px */
     .img-displays img {
-        width: calc(auto/5);
-        height: calc(100%/5.2) !important;
+        scale: 1.9;
     }
     #danceStyles .hiphop-header .TikTok {
         width: 30rem; /* 480px */
@@ -1114,8 +1095,7 @@
 @media (min-width:96.875em) and (max-width:99.94em) {
     /* 1550px - 1599px */
     .img-displays img {
-        width: calc(auto/5);
-        height: calc(100%/5) !important;
+        scale: 1.9;
     }
     #danceStyles .hiphop-header .TikTok {
         width: 31.25rem; /* 500px */
