@@ -107,7 +107,6 @@
     }
 
     #ourStory aside{
-        height: 80vh;
         background: var(--main-colour-100);
         display: grid;
         align-content:center ;
@@ -137,7 +136,14 @@
         top: 10%;
         z-index: 3;
     }
-    
+    /* ===================================Dance styles==--==-=-=-=- */
+    #achievements_vision {
+        justify-items: center;
+        height: 115vh;
+    }
+    .achievements , .vision {
+        width: 80%;
+    }
 /* ===================================Dance styles==--==-=-=-=- */
 
     #danceStyles{

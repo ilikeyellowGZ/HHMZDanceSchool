@@ -157,7 +157,6 @@ header .CTA_information {
     /* ----------header done----- */
 
     #ourStory aside{
-        height: 80vh;
         background: var(--main-colour-100);
         display: grid;
         align-content:center ;
@@ -197,6 +196,24 @@ header .CTA_information {
         flex-wrap: wrap;
         justify-content: end;
         display: none;
+    }
+    /* ------------sef */
+    #achievements_vision {
+        height: 115vh
+    }
+    .achievements , .vision {
+        width: 50%;
+    }
+    .imgSolution {
+        height: 80%;
+        display: block;
+        position: absolute;
+        z-index: 6;
+        right: var(--ss-padding);
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        background: url(/media/8be980fb-7e4e-4cfa-893d-d0ec818d393f.jpeg) center center;
     }
     /* -----------------------sewy------ */
     #contactForm{

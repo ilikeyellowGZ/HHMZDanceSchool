@@ -60,13 +60,14 @@ body,html{
 }
 
 #amapiano{
-    background: var(--main-colour-200);
+    background: var(--main-colour-100);
 }
 #urbanDance{
     background: var(--main-colour-400);
 }
 #hipHop{
-    background: var(--main-colour-100);
+
+    background: var(--main-colour-200);
 }
 #breakDance{
     background: var(--main-colour-200);

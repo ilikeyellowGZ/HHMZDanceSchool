@@ -25,7 +25,9 @@
     header h1 .three {
         top: -200px !important;
     }
-
+    #ourStory aside {
+        width: 90% ;
+    }
     footer{
         position: relative;
         background: var(--Secondary-colour-300);
@@ -244,13 +246,15 @@
     }
     header h1 .word {
         font-size: var(--header-fs);
-
     }
     header h1 .two {
         top: -100px !important;
     }
     header h1 .three {
         top: -200px !important;
+    }
+    #ourStory aside {
+        width: 80% ;
     }
     footer * {
         z-index: 5;
@@ -557,7 +561,10 @@
     footer h2 .two {
         top: -100px !important;
     }
-
+    #ourStory aside {
+        width: 80% ;
+        padding: 15px;
+    }
     .img-displays img {
         scale: 1;
     }
@@ -606,7 +613,6 @@
     }
     header h1 .word {
         font-size: var(--header-fs);
-
     }
     header h1 .two {
         top: -100px !important;
@@ -625,6 +631,9 @@
     }
     .img-displays img {
         scale: 1.1;
+    }
+    #ourStory aside {
+        width: 80% ;
     }
     footer .timeTable_contactForm{
         display: flex;

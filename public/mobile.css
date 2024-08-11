@@ -338,7 +338,7 @@ header .mobile-nav{
 /* ----------header done----- */
 
 #ourStory{
-    background: black;
+    background: var(--main-colour-100);
     height: 100vh;
     padding: var(--ss-padding) ;
     position: relative;
@@ -366,10 +366,9 @@ header .mobile-nav{
     height: 10vh;
     width: 100%;
     z-index: 5;
-    background: linear-gradient(180deg , var(--main-o-200), var(--main-o-400) , var(--main-colour-100));
+    background: linear-gradient(180deg , var(--Secondary-colour-200), var(--main-colour-100));
 }
 #ourStory aside{
-    height: 80vh;
     background: var(--main-colour-100);
     display: grid;
     align-content:center ;
@@ -377,7 +376,7 @@ header .mobile-nav{
     color: var(--Secondary-colour-300);
     position: relative;
     z-index: 5;
-    padding: var(--ss-padding);
+    padding: var(--ss-padding) 10px;
 }
 
 #ourStory aside h3 {
@@ -405,12 +404,47 @@ header .mobile-nav{
 #ourStory .outStoryImgCover .img-displays {
     display: none;
 }
+/* -------------------Dance STyles sections */
+#achievements_vision {
+    height: 125vh;
+    padding: 40px var(--ss-padding) 40px;
+    background: var(--main-colour-200);
+    display: grid;
+    justify-content: space-between;
+    color: var(--dark-tc);
+    position: relative;
+    z-index: 5;
+    grid-gap: 5%
+}
+
+.achievements , .vision {
+    width: 100%;
+}
+#achievements_vision aside h3 {
+    font-size: var(--headThree-fs);
+}
+#achievements_vision aside strong {
+    font-size: var(--p-fs);
+}
+#achievements_vision aside p {
+    font-size: var(--p-fs);
+}
+#achievements_vision aside li {
+    font-size: var(--p-fs);
+    padding-inline-start: calc(var(--ss-padding) / 5) ;
+    list-style: none;
+}
+#achievements_vision a {
+    color: var(--dark-tc);
+}
+.imgSolution {
+display: none;
+}
 
 /* -------------------Dance STyles sections */
 
 #danceStyles {
     position: relative;
-    background: green;
 }
 #danceStyles .first-dance_container{
     width: 100%;
