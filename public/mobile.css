@@ -406,7 +406,7 @@ header .mobile-nav{
 }
 /* -------------------Dance STyles sections */
 #achievements_vision {
-    height: 145vh;
+    height: 135vh;
     padding: 40px var(--ss-padding) 40px;
     background: var(--main-colour-200);
     display: grid;
