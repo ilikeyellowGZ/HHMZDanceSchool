@@ -144,6 +144,9 @@
     .achievements , .vision {
         width: 80%;
     }
+    #classes video {
+        width: 70vw;
+    }
 /* ===================================Dance styles==--==-=-=-=- */
 
     #danceStyles{

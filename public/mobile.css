@@ -152,7 +152,7 @@ header .CTA_information .actions button {
 }
 
 header .mobile-nav{
-    height: 50dvh;
+    height: 54dvh;
     width:100%;
     background: var(--Secondary-colour-200);
     position: absolute;
@@ -406,7 +406,7 @@ header .mobile-nav{
 }
 /* -------------------Dance STyles sections */
 #achievements_vision {
-    height: 135vh;
+    height: 143vh;
     padding: 40px var(--ss-padding) 40px;
     background: var(--main-colour-200);
     display: grid;
@@ -439,6 +439,38 @@ header .mobile-nav{
 }
 .imgSolution {
 display: none;
+}
+/* ----------------------------dance display section------ */
+
+#classes {
+    padding:calc( var(--main-padding) + var(--ss-padding)) var(--ss-padding);
+    background: var(--main-colour-100);
+    place-content: center;
+    position: relative;
+    z-index: 10;
+}
+#classes h2 {
+    font-size: var(--headTwo-fs);
+    color: var(--dark-tc);
+    text-align: center;
+    margin-bottom: 20px;
+}
+#classes .videoSrc_Information{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#classes video {
+    width: 90vw;
+    max-width: 950px;
+    aspect-ratio: 16/9;
+    margin-bottom: 40px;
+    
+}
+#classes p {
+    font-size: var(--p-fs);
+    max-width: 950px;
 }
 
 /* -------------------Dance STyles sections */
@@ -772,24 +804,24 @@ footer h2 .two {
 }
 
 #danceStyles  .hipHop {
-    background-image: url(/media/630ce744-ac46-402a-893b-54e4ae629ef9.jpeg);
+    background-image: url(/media/tempImg/360_F_616274083_bc32W7nrJKl2aZJ24ck2QHIsGweOmYc3.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 #danceStyles .AfroBeat{
-    background-image: url(/media/aa0e60a8-f8d9-4224-88c6-5a368eb50f4b.jpeg);
+    background-image: url(/media/tempImg/close-up-portrait-of-smiling-handsome-young-caucasian-man-face-looking-at-camera-on-isolated-light-gray-studio-background-photo.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 #danceStyles .Amapiano{
-    background-image: url(/media/4717f6c4-7b2a-4d86-873c-e858533fd7c7.jpeg);
+    background-image: url(/media/tempImg/istockphoto-1082483460-612x612.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 #danceStyles .UrbanDance {
-    background-image: url(/media/e9e90b0c-926f-4b24-9bfb-00985fc2ac2c.jpeg);
+    background-image: url(/media/tempImg/istockphoto-1369508766-612x612.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 #danceStyles .BreakDance{
     background-image: url(/media/4b299c29-05ce-4c92-ac56-fd8aa2a25b62.jpeg);
