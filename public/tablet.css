@@ -306,7 +306,7 @@ footer .upsideDown-triangle .oneBlock{
             height: 50px;
             padding-left: 10px;
             color: var(--dark-tc);
-            border-radius:  var(--smaller-br) 0 0 var(--smaller-br) ;
+            border-radius:  0  ;
         }
     
         footer .inner_footer form input::placeholder {
@@ -369,6 +369,7 @@ footer .upsideDown-triangle .oneBlock{
     .slideOutClose{
         animation: contactClosed1 0.3s ease-in-out  forwards !important;
     }
-
+    .dance_display .danceInstructorbox {
+        width: 40%;}
 } 
 

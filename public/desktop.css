@@ -560,6 +560,8 @@ footer .upsideDown-triangle .oneBlock{
     .slideOutClose{
         animation: contactClosed1 0.3s ease-in-out  forwards !important;
     }
+    .dance_display .danceInstructorbox {
+        width: 22%;}
 }
 
 

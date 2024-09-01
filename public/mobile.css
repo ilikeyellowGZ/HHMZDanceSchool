@@ -842,5 +842,43 @@ footer h2 .two {
     inset: 0;
 }
 
+.dance_display {
+    background: var(--main-colour-500);
+    padding: var(--main-padding) var(--ss-padding);
+    position: relative;
+    z-index: 10;
+}
+.dance_display .danceInstructors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.dance_display .danceInstructorbox {
+    width: 100%;
+    border-radius: 4px;
+    position: relative;
+    margin: 2vh 1vw;
+    padding: 10px;
+    background: var(--main-o-100);
+}
+.dance_display .danceInstructorbox h4 {
+    text-align: left;
+    font-size: var(--headFourth-fs);
+    font-weight: var(--section-heading-fw);
+    margin-block: calc(var(--ss-padding) * 0.5);
+}
+.dance_display .danceInstructorbox img {
+    position: relative;
+    width: 100%;
+}
+.dance_display .danceInstructorbox strong {
+    font-size: var(--p-fs);
+}
+.dance_display .danceInstructorbox p {
+    font-size: var(--p-fs);
+
+}
+
 
 
