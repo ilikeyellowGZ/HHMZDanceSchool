@@ -445,17 +445,54 @@ display: none;
 #classes {
 /*     padding:calc( var(--main-padding) + var(--ss-padding)) var(--ss-padding); */
     background: var(--main-colour-100);
-    place-content: center;
+    padding: var(--ss-padding);
+    display: grid;
+    grid-row: 2vh;
     position: relative;
     z-index: 10;
 }
-#classes h2 {
-    font-size: var(--headTwo-fs);
-    color: var(--dark-tc);
-    text-align: center;
-    margin-bottom: 20px;
-    display: none;
+#classes .classView{
+    background: #00000005;
+    display: grid;
+    grid-gap: 4vh;
+    padding: var(--ss-padding);
+    margin-block-end: 8vh ;
 }
+#classes .classView .video {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    max-width: 950px;
+    aspect-ratio: 16/9;
+    margin-inline: auto; 
+    background: url(/media/tempImg/Class-Info.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.classImgs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5vh;
+}
+
+.rightclassimage {
+    background: url(/media/tempImg/fun2.jpg);
+}
+.leftclassimage {
+    background: url(/media/tempImg/fun3.jpg);
+}
+.leftclassimage , .rightclassimage{
+    width: 100%;
+    aspect-ratio: 16/9; 
+    background-size: cover;
+    background-position: center center;
+}
+/* #classes h2 {
+    font-size: var(--headFourth-fs);
+    font-weight: var(--section-heading-fw);
+}
+*/
 #classes .videoSrc_Information{
     width: 100%;
     display: flex;
@@ -468,17 +505,28 @@ display: none;
     position: absolute;
     background: var(--main-o-500);
     z-index: 11;
-}
+} 
 #classes video {
    /*  width: 90vw;
     max-width: 950px; */
-    width: 100%;
-    aspect-ratio: 16/9;
-    margin-bottom: 40px;
+    /* width: 100%;
+    aspect-ratio: 16/9; */
+/*     margin-bottom: 40px; */
 }
 #classes p {
     font-size: var(--p-fs);
     max-width: 950px;
+    text-align: center;
+}
+#classes .funClassDescription{
+    place-content: center;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#classes .funClassDescription h2{
+    font-size: var(--headFourth-fs);
+    font-weight: var(--section-heading-fw);
 }
 
 /* -------------------Dance STyles sections */
@@ -852,15 +900,16 @@ footer h2 .two {
 
 .dance_display {
     background: var(--main-colour-500);
-    padding: var(--main-padding) var(--ss-padding);
+    padding:160px var(--ss-padding) var(--ss-padding);
     position: relative;
     z-index: 10;
+    place-items: center;
 }
 .dance_display .danceInstructors {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
+    position: relative;
+    grid-gap: 2vh;
 }
 .dance_display .danceInstructorbox {
     width: 100%;
@@ -868,10 +917,27 @@ footer h2 .two {
     position: relative;
     margin: 2vh 1vw;
     padding: 10px;
-    background: var(--main-o-100);
+    place-content: end;
+    height: 101%;
+    background: var(--main-colour-200);
+}
+.dance_display .danceInstructorbox .InstructorImg {
+    object-fit: cover;
+    object-position: center left;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%);
+    opacity: .6;
+}
+.dance_display .danceInstructorbox .infoaboutInstructor{
+    position: relative;
+    margin-top: 25px;
+    place-items: center;
 }
 .dance_display .danceInstructorbox h4 {
-    text-align: left;
+    text-align: center;
     font-size: var(--headFourth-fs);
     font-weight: var(--section-heading-fw);
     margin-block: calc(var(--ss-padding) * 0.5);
@@ -885,7 +951,19 @@ footer h2 .two {
 }
 .dance_display .danceInstructorbox p {
     font-size: var(--p-fs);
-
+    text-align: center;
+}
+.dance_display h2 {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
+.dance_display h2 div {
+    color: var(--main-o-100);
+    font-size: var(--headTwo-fs);
+    text-transform: uppercase;
+    font-weight: var(--main-heading-fw);
 }
 
 

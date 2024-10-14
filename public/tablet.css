@@ -144,8 +144,15 @@
     .achievements , .vision {
         width: 80%;
     }
-    #classes video {
-        width: 70vw;
+    .classImgs{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+        justify-content: space-around;
+    }
+    .leftclassimage , .rightclassimage{
+        width: 48%;
+        aspect-ratio: 16/9; 
     }
 /* ===================================Dance styles==--==-=-=-=- */
 
@@ -370,6 +377,12 @@ footer .upsideDown-triangle .oneBlock{
         animation: contactClosed1 0.3s ease-in-out  forwards !important;
     }
     .dance_display .danceInstructorbox {
-        width: 40%;}
+        width: clamp(400px , 80% , 550px) ;}
+        .dance_display h2 {
+            display: block;
+            position: absolute;
+            right: 0;
+            top: -30px;
+        }
 } 
 

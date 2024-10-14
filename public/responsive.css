@@ -229,6 +229,9 @@
     footer h2 .two {
         top: -50px;
     }
+    /* .dance_display .danceInstructorbox .infoaboutInstructor{ */
+    /*     height: 25%; */
+    /* } */
 }
 @media (min-width:34.375em) and (max-width:37.31em) {
     /* 550px - 599px */
@@ -461,6 +464,9 @@
     footer h2 .two {
         top: -50px;
     }
+    /* .dance_display .danceInstructorbox .infoaboutInstructor{ */
+    /*     height: 24%; */
+    /* } */
 
 }
 @media (min-width:37.5em) and (max-width:40.56em) {
@@ -525,6 +531,9 @@
         width: 100%;
         height: 50px;
     }
+    /* .dance_display .danceInstructorbox .infoaboutInstructor{ */
+    /*     height: 22%; */
+    /* } */
 }
 
 @media (min-width:40.625em) and (max-width:43.69em) {
@@ -593,6 +602,9 @@
         width: 100%;
         height: 50px;
     }
+    /* .dance_display .danceInstructorbox .infoaboutInstructor{ */
+    /*     height: 22%; */
+    /* } */
 }
 
 @media (min-width:43.75em) and (max-width:46.81em)  {
@@ -660,6 +672,9 @@
         width: 100%;
         height: 50px;
     }
+    /* .dance_display .danceInstructorbox .infoaboutInstructor{ */
+    /*     height: 21%; */
+    /* } */
 }
 
 @media (min-width:46.875em) and (max-width:49.94em) {
@@ -703,6 +718,9 @@
         width: 100%;
         height: 50px;
     }
+    /* .dance_display .danceInstructorbox .infoaboutInstructor{ */
+    /*     height: 21%; */
+    /* } */
 }
 
 @media (min-width:50em) and (max-width:53.06em) {
@@ -741,6 +759,9 @@
         width: 100%;
         height: 50px;
     }
+    /* .dance_display .danceInstructorbox .infoaboutInstructor{ */
+    /*     height: 20%; */
+    /* } */
 }
 
 @media (min-width:53.125em) and (max-width:56.19em) {
@@ -772,6 +793,9 @@
     #danceStyles .hiphop-header .afroBeat {
         width: 10.625rem; /* 170px */
     }
+    /* .dance_display .danceInstructorbox .infoaboutInstructor{ */
+    /*     height: 18%; */
+    /* } */
 }
 
 @media (min-width:56.25em) and (max-width:59.31em) {
@@ -797,6 +821,9 @@
     #danceStyles .hiphop-header .afroBeat {
         width: 11.875rem; /* 190px */
     }
+    /* .dance_display .danceInstructorbox .infoaboutInstructor{ */
+    /*     height: 18%; */
+    /* } */
 }
 
 @media (min-width:59.375em) and (max-width:62.44em) {
@@ -822,6 +849,9 @@
     #danceStyles .hiphop-header .afroBeat {
         width: 13.125rem; /* 210px */
     }
+    /* .dance_display .danceInstructorbox .infoaboutInstructor{ */
+    /*     height: 18%; */
+    /* } */
 }
 
 @media (min-width:62.5em) and (max-width:65.56em) {
@@ -847,6 +877,9 @@
     #danceStyles .hiphop-header .afroBeat {
         width: 14.375rem; /* 230px */
     }
+    /* .dance_display .danceInstructorbox .infoaboutInstructor{ */
+    /*     height: 18%; */
+    /* } */
 }
 
 @media (min-width:65.625em) and (max-width:68.69em) {
@@ -872,6 +905,9 @@
     #danceStyles .hiphop-header .afroBeat {
         width: 15.625rem; /* 250px */
     }
+    /* .dance_display .danceInstructorbox .infoaboutInstructor{ */
+    /*     height: 18%; */
+    /* } */
 }
 
 @media (min-width:68.75em) and (max-width:71.81em) {
@@ -972,6 +1008,9 @@
     #danceStyles .hiphop-header .afroBeat {
         width: 20.625rem; /* 330px */
     }
+    /* .dance_display .danceInstructorbox .infoaboutInstructor{ */
+    /*     height: 32%; */
+    /* } */
 }
 
 @media (min-width:81.25em) and (max-width:84.31em) {
@@ -997,6 +1036,9 @@
     #danceStyles .hiphop-header .afroBeat {
         width: 21.875rem; /* 350px */
     }
+    /* .dance_display .danceInstructorbox .infoaboutInstructor{ */
+    /*     height: 32%; */
+    /* } */
 }
 
 @media (min-width:84.375em) and (max-width:87.44em) {
@@ -1022,6 +1064,9 @@
     #danceStyles .hiphop-header .afroBeat {
         width: 23.125rem; /* 370px */
     }
+    /* .dance_display .danceInstructorbox .infoaboutInstructor{ */
+    /*     height: 30%; */
+    /* } */
 }
 
 @media (min-width:87.5em) and (max-width:90.56em) {
@@ -1048,6 +1093,9 @@
     #danceStyles .hiphop-header .afroBeat {
         width: 24.375rem; /* 390px */
     }
+    /* .dance_display .danceInstructorbox .infoaboutInstructor{ */
+    /*     height: 27%; */
+    /* } */
 }
 
 @media (min-width:90.625em) and (max-width:93.69em) {
@@ -1074,6 +1122,9 @@
     #danceStyles .hiphop-header .afroBeat {
         width: 25.625rem; /* 410px */
     }
+    /* .dance_display .danceInstructorbox .infoaboutInstructor{ */
+    /*     height: 27%; */
+    /* } */
 }
 
 @media (min-width:93.75em) and (max-width:96.81em) {
@@ -1099,6 +1150,9 @@
     #danceStyles .hiphop-header .afroBeat {
         width: 26.875rem; /* 430px */
     }
+    /* .dance_display .danceInstructorbox .infoaboutInstructor{ */
+    /*     height: 26.6%; */
+    /* } */
 }
 
 @media (min-width:96.875em) and (max-width:99.94em) {
@@ -1124,4 +1178,7 @@
     #danceStyles .hiphop-header .afroBeat {
         width: 28.125rem; /* 450px */
     }
+    /* .dance_display .danceInstructorbox .infoaboutInstructor{ */
+    /*     height: 26%; */
+    /* } */
 }
