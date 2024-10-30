@@ -156,13 +156,27 @@ header .CTA_information {
 
     /* ----------header done----- */
 
+    #ourStory{
+        background: var(--main-colour-100);
+        padding: 90px var(--ss-padding) ;
+        position: relative;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1.5fr ;
+        justify-content: flex-start;
+        overflow: hidden;
+        z-index: 10;
+    }
+
     #ourStory aside{
         background: var(--main-colour-100);
         display: grid;
         align-content:center ;
         justify-content: center;
         color: var(--Secondary-colour-300);
-        width: 50%;
+        width: 100%;
+        margin-inline: 0;
+        margin-bottom: 15%;
     }
     #ourStory aside h3 {
         font-size: var(--headTwo-fs);
@@ -178,12 +192,15 @@ header .CTA_information {
         text-decoration: underline;
     }
     #ourStory .outStoryImgCover{
-        position: absolute;
         background: var(--main-colour-100);
-        width: 100%;
-        height: 90%;
-        top: 10%;
         z-index: 3;
+        top: 10%;
+        background: url(/media/061b4f2a-8d4b-49c7-bf0f-c9db9fd798a1.jpeg);
+        width: 100%;
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        aspect-ratio: 1280/960;
     }
 
     #ourStory .outStoryImgCover .img-displays{
@@ -360,9 +377,21 @@ header .CTA_information {
 
         #FAQ .question_container{
             background: var(--main-colour-100);
-            padding: 40px 20px; /* im not sure ill check through the document */
+            padding: 40px 20px;
             border-radius: var(--bigger-br);
             margin: 30px 0;
+            display: grid;
+            grid-template-rows: 30% 45% 30%;
+        }
+        #FAQ .question_container .img-FAQ-display{
+            display: none;
+        }
+        #FAQ .question_container p {
+            margin-block: 0;
+        }
+        #FAQ .question_container .FAQcontact{
+            margin-top: auto;
+            margin-right: auto;
         }
 
         #FAQ h2 {
@@ -593,6 +622,14 @@ footer .upsideDown-triangle .oneBlock{
         right: 0;
         top: -30px;
     }
+    #classes {
+        padding: calc(var(--main-padding) + var(--ss-padding)); 
+        background: var(--main-colour-100);
+        display: grid;
+        position: relative;
+        z-index: 10;
+    }
+
 }
 
 

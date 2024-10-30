@@ -18,7 +18,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     background: var(--main-o-100);
-    padding: 0 10px;
+    padding: 0 10px 0 20px;
     position: sticky;
     top: 0;
 }
@@ -339,11 +339,12 @@ header .mobile-nav{
 
 #ourStory{
     background: var(--main-colour-100);
-    height: 107vh;
-    padding: var(--ss-padding) ;
+    height: fit-content;
+    padding: 90px var(--ss-padding) ;
     position: relative;
     display: grid;
     align-items: end;
+    grid-template-rows: 1fr 1fr;
     justify-content: center;
     overflow: hidden;
     z-index: 10;
@@ -377,6 +378,7 @@ header .mobile-nav{
     position: relative;
     z-index: 5;
     padding: var(--ss-padding) 10px;
+    margin-inline: auto;
 }
 
 #ourStory aside h3 {
@@ -394,15 +396,20 @@ header .mobile-nav{
     text-decoration: underline;
 }
 #ourStory .outStoryImgCover{
-    position: absolute;
-    background: var(--main-colour-100);
-    width: 100%;
-    height: 80%;
+    background: url(/media/061b4f2a-8d4b-49c7-bf0f-c9db9fd798a1.jpeg);
     top: 10%;
     z-index: 3;
+    width: 100%;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1280/960;
 }
-#ourStory .outStoryImgCover .img-displays {
-    display: none;
+#ourStory .outStoryImgCover img{
+    height: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center center;
 }
 /* -------------------Dance STyles sections */
 #achievements_vision {
@@ -445,7 +452,7 @@ display: none;
 #classes {
 /*     padding:calc( var(--main-padding) + var(--ss-padding)) var(--ss-padding); */
     background: var(--main-colour-100);
-    padding: var(--ss-padding);
+    padding: var(--ss-padding) 5px;
     display: grid;
     grid-row: 2vh;
     position: relative;
@@ -455,17 +462,39 @@ display: none;
     background: #00000005;
     display: grid;
     grid-gap: 4vh;
-    padding: var(--ss-padding);
+    padding: var(--ss-padding) 10px;
     margin-block-end: 8vh ;
 }
-#classes .classView .video {
+#classes .funClasses .video {
     object-fit: cover;
     object-position: center center;
     width: 100%;
     max-width: 950px;
     aspect-ratio: 16/9;
     margin-inline: auto; 
-    background: url(/media/tempImg/Class-Info.jpg);
+    background: url(/media/classes/fun.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+#classes .fitnessClasses .video {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    max-width: 950px;
+    aspect-ratio: 16/9;
+    margin-inline: auto; 
+    background: url(/media/classes/fitness.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+#classes .compClasses .video {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    max-width: 950px;
+    aspect-ratio: 16/9;
+    margin-inline: auto; 
+    background: url(/media/classes/competitve.jpeg);
     background-size: cover;
     background-position: center center;
 }
@@ -517,6 +546,12 @@ display: none;
     font-size: var(--p-fs);
     max-width: 950px;
     text-align: center;
+}
+#classes strong {
+    font-size: var(--p-fs);
+    max-width: 950px;
+    text-align: center;
+    font-weight: 600;
 }
 #classes .funClassDescription{
     place-content: center;
@@ -617,7 +652,7 @@ display: none;
 
 #FAQ .question_container{
     background: var(--main-colour-100);
-    padding: 20px 8px;
+    padding: 20px 12px;
     border-radius: var(--smaller-br);
     margin: 30px 0;
     position: relative;
@@ -674,12 +709,13 @@ footer{
     overflow: hidden;
 }
 
-footer .upsideDown-triangle{
+footer .upsideDown-triangle {
     height: 95px;
     background: var(--main-colour-200);
     position: absolute;
-    width: 100vw;
+    width: 101vw;
     top: -2px;
+    left: -3px;
     border-radius: 0 0 200% 200%;
     z-index: 10;
 }
@@ -899,8 +935,8 @@ footer h2 .two {
 }
 
 .dance_display {
-    background: var(--main-colour-500);
-    padding:160px var(--ss-padding) var(--ss-padding);
+    background: var(--main-colour-100);
+    padding:160px var(--ss-padding) 60px;
     position: relative;
     z-index: 10;
     place-items: center;
@@ -918,7 +954,6 @@ footer h2 .two {
     margin: 2vh 1vw;
     padding: 15px;
     place-content: end;
-    background: var(--main-colour-200);
 }
 .dance_display .danceInstructorbox .InstructorImg {
     object-fit: cover;
@@ -929,7 +964,7 @@ footer h2 .two {
     top: 0%;
     transform: translateX(-50%);
     opacity: .6;
-
+    display: none;
 }
 .dance_display .danceInstructorbox .InstructorImgface {
     width: 100%;
@@ -940,7 +975,7 @@ footer h2 .two {
 }
 .dance_display .danceInstructorbox .infoaboutInstructor{
     position: relative;
-    margin-top: 25px;
+    margin-top: 5px;
     place-items: center;
 }
 .dance_display .danceInstructorbox h4 {
