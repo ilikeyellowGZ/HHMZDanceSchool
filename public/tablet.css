@@ -375,11 +375,12 @@ footer .upsideDown-triangle .oneBlock{
     }
     .dance_display .danceInstructorbox {
         width: clamp(400px , 80% , 550px) ;}
-        .dance_display h2 {
-            display: block;
-            position: absolute;
-            right: 0;
-            top: -30px;
+
+        .dance_display h2 div {
+            color: var(--main-o-100);
+            font-size: var(--headTwo-fs);
+            text-transform: uppercase;
+            font-weight: var(--main-heading-fw);
         }
         #ourStory {
             background: var(--main-colour-100);

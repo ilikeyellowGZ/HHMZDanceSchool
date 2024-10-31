@@ -936,7 +936,7 @@ footer h2 .two {
 
 .dance_display {
     background: var(--main-colour-100);
-    padding:160px var(--ss-padding) 60px;
+    padding:80px var(--ss-padding) ;
     position: relative;
     z-index: 10;
     place-items: center;
@@ -961,10 +961,9 @@ footer h2 .two {
     width: 80%;
     position: absolute;
     left: 50%;
-    top: 0%;
+    top: 8%;
     transform: translateX(-50%);
     opacity: .6;
-    display: none;
 }
 .dance_display .danceInstructorbox .InstructorImgface {
     width: 100%;
@@ -996,17 +995,18 @@ footer h2 .two {
     text-align: center;
 }
 .dance_display h2 {
-    display: none;
     position: absolute;
-    right: 0;
-    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0px; 
 }
 .dance_display h2 div {
-    color: var(--main-o-100);
-    font-size: var(--headTwo-fs);
+    color: var(--main-o-300);
+    font-size: var(--headThree-fs);
     text-transform: uppercase;
     font-weight: var(--main-heading-fw);
 }
+
 
 
 

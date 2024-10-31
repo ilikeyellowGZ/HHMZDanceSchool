@@ -1,3 +1,22 @@
+@media (min-width: 16.875rem) and (max-width: 23.125rem) {
+    /* Your CSS rules here */
+    :root{
+        --headThree-fs: 3.6rem;
+        --p-fs: 1.4rem
+    }
+    #achievements_vision {
+        height: 143vh;
+        padding: 40px 12px;
+        background: var(--main-colour-200);
+        display: grid;
+        justify-content: space-between;
+        color: var(--dark-tc);
+        position: relative;
+        z-index: 5;
+        grid-gap: 5%;
+    }
+}
+
 @media (min-width:31.25em) and (max-width:34.31em) {
     /* 500px - 549px */
 :root{

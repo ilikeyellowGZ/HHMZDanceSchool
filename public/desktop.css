@@ -606,6 +606,13 @@ footer .upsideDown-triangle .oneBlock{
     max-width: 950px;
     MARGIN-INLINE: auto;
     }
+    .dance_display {
+        background: var(--main-colour-100);
+        padding:130px var(--ss-padding) 60px ;
+        position: relative;
+        z-index: 10;
+        place-items: center;
+    }
     .dance_display .danceInstructors{
         row-gap: 6vh;
         grid-template-columns: 50% 50%;
@@ -617,10 +624,16 @@ footer .upsideDown-triangle .oneBlock{
         height: 17%;
     }
     .dance_display h2 {
-        display: block;
         position: absolute;
-        right: 0;
-        top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -30px; 
+    }
+    .dance_display h2 div {
+        color: var(--main-o-100);
+        font-size: var(--headTwo-fs);
+        text-transform: uppercase;
+        font-weight: var(--main-heading-fw);
     }
     #classes {
         padding: calc(var(--main-padding) + var(--ss-padding)); 
