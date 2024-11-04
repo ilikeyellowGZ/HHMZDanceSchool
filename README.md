@@ -14,3 +14,6 @@ commiting did the everything added the copy, changed up the instuctors, changed 
 chnaged the heading for the staff and the background for the different staff and just fixed the links.
 
 the whole website is complete i add the email function i added the everything is done.
+
+
+i now even added the download of the company profile and everything should be done

@@ -171,3 +171,13 @@ AmapianoReadLess.addEventListener("click", () => {
 });
 
 
+
+function handleSubmit(event) {
+    event.preventDefault(); 
+        
+    const link = document.createElement("a");
+    link.href = "/media/HHMZ-COMPANY-PROFILE1.pdf";
+    link.download = "HHMZ-COMPANY-PROFILE1.pdf";
+    link.click();
+}
+
