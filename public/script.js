@@ -26,7 +26,7 @@ document.addEventListener("click", (event) => {
     }
 });
 
-const navContactBtn = document.getElementById("contact");
+
 const heroContactBtn = document.getElementById("main_CTA");
 const mainContact = document.getElementById("contactForm");
 const contactCloseBtn = document.getElementById("closeTwo");
@@ -47,7 +47,9 @@ function closeContactForm() {
 }
 
 
-navContactBtn.addEventListener("click", openContactForm);
+document.getElementById("contact").addEventListener("click", function() {
+    window.open("https://wa.me/0745148914", "_blank");
+});
 heroContactBtn.addEventListener("click", openContactForm);
 contactCloseBtn.addEventListener("click", closeContactForm);
 
@@ -62,7 +64,7 @@ contactCloseBtn.addEventListener("click", closeContactForm);
 document.addEventListener("click", function(event) {
     const isClickInsideFaqButton = Array.from(faqButtons).some(button => button.contains(event.target));
     
-    if (!mainContact.contains(event.target) && !navContactBtn.contains(event.target) && !heroContactBtn.contains(event.target) && !contactCloseBtn.contains(event.target) && !isClickInsideFaqButton) {
+    if (!mainContact.contains(event.target)  && !heroContactBtn.contains(event.target) && !contactCloseBtn.contains(event.target) && !isClickInsideFaqButton) {
         closeContactForm();
     }
 });
@@ -167,4 +169,5 @@ AmapianoReadLess.addEventListener("click", () => {
     AmapianoReadLess.classList.add("none");
     moreAmapianoInfoBtn.classList.add("none");
 });
+
 
