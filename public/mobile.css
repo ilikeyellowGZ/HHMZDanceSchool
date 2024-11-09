@@ -777,6 +777,7 @@ footer .inner_footer form input {
     background: transparent;
     outline: none;
     border: none;
+    border-radius: 0;
     border-bottom: 2px solid var(--light-tc);
     width: 100%;
     font-size: var(--p-fs);
