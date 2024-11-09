@@ -216,7 +216,6 @@ header .CTA_information {
     }
     /* ------------sef */
     #achievements_vision {
-        height: 115vh
     }
     .achievements , .vision {
         width: 50%;
@@ -641,6 +640,9 @@ footer .upsideDown-triangle .oneBlock{
         display: grid;
         position: relative;
         z-index: 10;
+    }
+    .AV-img-mobile{
+        display: none;
     }
 
 }

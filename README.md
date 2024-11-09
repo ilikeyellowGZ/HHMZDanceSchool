@@ -17,3 +17,7 @@ the whole website is complete i add the email function i added the everything is
 
 
 i now even added the download of the company profile and everything should be done
+
+i added new images for the fitniess and comp classes, chnage the top section to what he wanted but it doesnt look like nice and fixed the AV section height
+
+and im now officially done i just need to add the proper email function to the right contact.

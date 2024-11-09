@@ -413,15 +413,16 @@ header .mobile-nav{
 }
 /* -------------------Dance STyles sections */
 #achievements_vision {
-    height: 143vh;
-    padding: 40px var(--ss-padding) 40px;
-    background: var(--main-colour-200);
     display: grid;
+    gap: 5.5vh;
     justify-content: space-between;
-    color: var(--dark-tc);
+    background: var(--main-colour-200);
+    padding: 40px var(--ss-padding) 60px;
+    display: grid;
+    grid-row: 2vh;
     position: relative;
-    z-index: 5;
-    grid-gap: 5%
+    z-index: 10;
+    color: var(--dark-tc);
 }
 
 .achievements , .vision {
@@ -446,6 +447,13 @@ header .mobile-nav{
 }
 .imgSolution {
 display: none;
+}
+.AV-img-mobile {
+    background: url(/media/a725a43b-5f99-4cab-9f15-667ebf5347a0-min.jpeg);
+    aspect-ratio: 16/9;
+    width: 100%;
+    background-position: center 30%;
+    background-size: cover;
 }
 /* ----------------------------dance display section------ */
 
@@ -483,7 +491,7 @@ display: none;
     max-width: 950px;
     aspect-ratio: 16/9;
     margin-inline: auto; 
-    background: url(/media/classes/fitness.jpeg);
+    background: url(/media/classes/fitness2.webp);
     background-size: cover;
     background-position: center center;
 }
@@ -494,7 +502,7 @@ display: none;
     max-width: 950px;
     aspect-ratio: 16/9;
     margin-inline: auto; 
-    background: url(/media/classes/competitve.jpeg);
+    background: url(/media/classes/competitive2.jpeg);
     background-size: cover;
     background-position: center center;
 }
@@ -1006,6 +1014,7 @@ footer h2 .two {
     text-transform: uppercase;
     font-weight: var(--main-heading-fw);
 }
+
 
 
 

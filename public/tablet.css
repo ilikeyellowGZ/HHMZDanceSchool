@@ -136,7 +136,6 @@
     /* ===================================Dance styles==--==-=-=-=- */
     #achievements_vision {
         justify-items: center;
-        height: 125vh;
     }
     .achievements , .vision {
         width: 80%;
@@ -331,7 +330,7 @@ footer .upsideDown-triangle .oneBlock{
             justify-content: center;
             align-items: center;
             border: none;
-            border-radius: 0  var(--smaller-br)var(--smaller-br) 0;
+            border-radius:   var(--smaller-br);
         }
 
             /* The big text----------- */
