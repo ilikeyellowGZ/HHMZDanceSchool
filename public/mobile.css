@@ -502,9 +502,9 @@ display: none;
     max-width: 950px;
     aspect-ratio: 16/9;
     margin-inline: auto; 
-    background: url(/media/classes/competitive2.jpeg);
+    background: url(/media/classes/competitive.jpeg);
     background-size: cover;
-    background-position: center center;
+    background-position: center top;
 }
 
 .classImgs{
